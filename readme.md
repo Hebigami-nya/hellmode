@@ -9,30 +9,31 @@ Empowered Monsters, challenging Bosses, Epic Items allowing unique builds and so
 
 ### Basic Monsters
 
-- [ ] Empowered Bogged
-- [ ] Empowered Cave Spider
-- [ ] Empowered Creeper
-- [ ] Empowered Drowned
-- [ ] Empowered Enderman
-- [ ] Empowered Endermite
-- [ ] Empowered Ghast
-- [ ] Empowered Husk
-- [ ] Empowered Parched
+- [x] Empowered Bogged
+- [x] Empowered Cave Spider
+- [x] Empowered Creeper
+- [x] Empowered Drowned
+- [x] Empowered Enderman
+- [x] Empowered Endermite
+- [x] Empowered Ghast
+- [x] Empowered Husk
+- [x] Empowered Parched
 - [ ] Empowered Phantom
-- [ ] Empowered Piglin
-- [ ] Empowered Silverfish
-- [ ] Empowered Skeleton
-- [ ] Empowered Spider
-- [ ] Empowered Stray
-- [ ] Empowered Wither Skeleton
-- [ ] Empowered Zombie
-- [ ] Empowered Zombified Piglin
+- [x] Empowered Piglin
+- [x] Empowered Silverfish
+- [x] Empowered Skeleton
+- [x] Empowered Spider
+- [x] Empowered Stray
+- [x] Empowered Wither Skeleton
+- [x] Empowered Zombie
+- [x] Empowered Zombified Piglin
 
 ### Custom Monsters
 
-- [ ] Death Observer
-- [ ] Dwarfen Master Smith (no natural spawning yet)
-- [ ] Dwarfen Archer (no natural spawning yet)
+- [x] Death Observer
+- [x] Dwarfen Master Smith (no natural spawning yet)
+- [x] Dwarfen Archer (no natural spawning yet)
+- [ ] ???
 
 ### Boss Monsters
 
@@ -44,18 +45,18 @@ Empowered Monsters, challenging Bosses, Epic Items allowing unique builds and so
 
 ### Reuseable Special Abilities
 
-- [ ] Fang Circle around the source
+- [x] Fang Circle around the source
 - [ ] ???
 
 ### Epic Items
 
-- [ ] Night Vision Spyglass
-- [ ] Increased Interaction Range Head
-- [ ] Floating Horn
-- [ ] Poison Buff Head
+- [x] Night Vision Spyglass
+- [x] Increased Interaction Range Head
+- [x] Floating Horn
+- [x] Poison Buff Head
 - [ ] ???
 
 ### Structures
 
-- [ ] Dwarfen Smithy
+- [x] Dwarfen Smithy
 - [ ] ???
