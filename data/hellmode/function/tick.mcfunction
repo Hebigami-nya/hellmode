@@ -53,6 +53,11 @@ execute if score #20ticksLoop timer matches 20 as @a if items entity @s armor.he
 # Gives Players permanent night vision as long as the Spyglass is in the hotbar
 execute if score #20ticksLoop timer matches 20 as @a if items entity @s hotbar.* minecraft:spyglass[custom_data={hasNightVision:1b}] run effect give @s minecraft:night_vision 12 0
 
+# Skeleton Farmer Drop Ability
+# Gives the Player Bonemeal on use of Skeleton Farmer's Hoe
+give @a[scores={used_iron_hoe=1..}] minecraft:bone_meal 1
+scoreboard players set @a[scores={used_iron_hoe=1..}] used_iron_hoe 0
+
 # Reset time counters
 execute if score #20ticksLoop timer matches 20.. run scoreboard players set #20ticksLoop timer 0
 execute if score #10secondsLoop timer matches 200.. run scoreboard players set #10secondsLoop timer 0
