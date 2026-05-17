@@ -58,6 +58,14 @@ execute if score #20ticksLoop timer matches 20 as @a if items entity @s hotbar.*
 execute as @a[scores={used_iron_hoe=1..}] if items entity @s weapon.mainhand minecraft:iron_hoe[custom_data={createsBonemeal:1b}] run give @s minecraft:bone_meal 1
 scoreboard players set @a[scores={used_iron_hoe=1..}] used_iron_hoe 0
 
+# Undead Farmhand Drop Ability
+execute if score #20ticksLoop timer matches 20 as @a[scores={killed_sheep=1..}] if items entity @s weapon.mainhand minecraft:iron_hoe[custom_data={spawnsBabyOnAnimalKill:1b}] at @s run summon sheep ~ ~ ~ {Age:-6000} 
+execute if score #20ticksLoop timer matches 20 run scoreboard players set @a[scores={killed_sheep=1..}] killed_sheep 0
+execute if score #20ticksLoop timer matches 20 as @a[scores={killed_cow=1..}] if items entity @s weapon.mainhand minecraft:iron_hoe[custom_data={spawnsBabyOnAnimalKill:1b}] at @s run summon cow ~ ~ ~ {Age:-6000} 
+execute if score #20ticksLoop timer matches 20 run scoreboard players set @a[scores={killed_cow=1..}] killed_cow 0
+execute if score #20ticksLoop timer matches 20 as @a[scores={killed_pig=1..}] if items entity @s weapon.mainhand minecraft:iron_hoe[custom_data={spawnsBabyOnAnimalKill:1b}] at @s run summon pig ~ ~ ~ {Age:-6000} 
+execute if score #20ticksLoop timer matches 20 run scoreboard players set @a[scores={killed_pig=1..}] killed_pig 0
+
 # Reset time counters
 execute if score #20ticksLoop timer matches 20.. run scoreboard players set #20ticksLoop timer 0
 execute if score #10secondsLoop timer matches 200.. run scoreboard players set #10secondsLoop timer 0

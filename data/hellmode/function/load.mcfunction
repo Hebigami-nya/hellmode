@@ -14,8 +14,12 @@ gamerule keep_inventory true
 scoreboard objectives add deaths deathCount Deaths
 scoreboard objectives setdisplay list deaths
 
-# Skeleton Farmer Drop bonemeal creation tracking
+# Skeleton Farmer Drop tracking
 scoreboard objectives add used_iron_hoe minecraft.used:minecraft.iron_hoe
+# Undead Farmhand Drop tracking
+scoreboard objectives add killed_sheep minecraft.killed:minecraft.sheep
+scoreboard objectives add killed_cow minecraft.killed:minecraft.cow
+scoreboard objectives add killed_pig minecraft.killed:minecraft.pig
 
 # Set daytime to midnight
 time set 18000
