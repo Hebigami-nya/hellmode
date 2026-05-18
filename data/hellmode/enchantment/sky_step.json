@@ -1,0 +1,43 @@
+{
+  "description": "Sky Step",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:gravity",
+        "id": "minecraft:gravity",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.6,
+          "per_level_above_first": -0.1
+        },
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "minecraft:safe_fall_distance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0,
+          "per_level_above_first": 2
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}
