@@ -43,10 +43,6 @@ Empowered Monsters, challenging Bosses, Epic Items allowing unique builds and so
 - [ ] Big Spider Boss
 - [ ] ???
 
-### Reuseable Special Abilities
-
-- [x] Fang Circle around the source
-- [ ] ???
 
 ### Epic Items
 
@@ -54,9 +50,4 @@ Empowered Monsters, challenging Bosses, Epic Items allowing unique builds and so
 - [x] Increased Interaction Range Head
 - [x] Floating Horn
 - [x] Poison Buff Head
-- [ ] ???
-
-### Structures
-
-- [x] Dwarfen Smithy
 - [ ] ???
