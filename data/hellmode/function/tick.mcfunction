@@ -19,13 +19,6 @@ scoreboard players set @a[scores={times_slept=1..}] times_slept 0
 execute if score #20ticksLoop timer matches 10 at @e[tag=lich_lord] if entity @p[distance=..20] run particle soul_fire_flame ~ ~2 ~ 0.5 0.5 0.5 0.05 20 normal
 execute if score #20ticksLoop timer matches 20 at @e[tag=lich_lord] if entity @p[distance=..20] run particle soul_fire_flame ~ ~2 ~ 0.5 0.5 0.5 0.05 20 normal
 
-# Lich Lord Ability
-# Summons Fangs around the Lich Lord
-execute if score #10secondsLoop timer matches 0 at @e[tag=lich_lord] if entity @p[distance=..6] run function hellmode:abilities/fangs_cycle_medium
-execute if score #10secondsLoop timer matches 10 at @e[tag=lich_lord] if entity @p[distance=..6] run function hellmode:abilities/fangs_cycle_large
-execute if score #10secondsLoop timer matches 100 at @e[tag=lich_lord] if entity @p[distance=..6] run function hellmode:abilities/fangs_cycle_medium
-execute if score #10secondsLoop timer matches 110 at @e[tag=lich_lord] if entity @p[distance=..6] run function hellmode:abilities/fangs_cycle_large
-
 # Swarm Spider Ability
 # Summons more Swarm Spiders
 execute if score #20ticksLoop timer matches 20 at @a if entity @e[tag=swarm_spider,distance=..3] run summon cave_spider ~ ~ ~ {id:"minecraft:cave_spider",Health:6f,Tags:["modified","swarm_spider"],CustomName:{"shadow_color":-5636096,"text":"Swarm Spider"},equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":"MHF_CaveSpider","minecraft:custom_name":"Swarm Spider Head","minecraft:custom_data":{hasPoisonPowers:1b},"minecraft:lore":[{"italic":true,"text":"Poison Powers"}],"minecraft:attribute_modifiers":[{id:"armor",type:"armor",amount:2,operation:"add_value"}]}}},drop_chances:{head:0.010},attributes:[{id:"minecraft:attack_damage",base:2},{id:"minecraft:scale",base:0.2}]}
