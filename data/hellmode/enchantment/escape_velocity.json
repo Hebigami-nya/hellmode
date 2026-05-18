@@ -1,0 +1,48 @@
+{
+  "description": "Escape Velocity",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "minecraft:speed",
+              "min_duration": 3,
+              "max_duration": 3,
+              "min_amplifier": {
+                "type": "minecraft:linear",
+                "base": 0,
+                "per_level_above_first": 1
+              },
+              "max_amplifier": {
+                "type": "minecraft:linear",
+                "base": 0,
+                "per_level_above_first": 1
+              }
+            }
+          ]
+        },
+        "enchanted": "victim",
+        "affected": "victim"
+      }
+    ]
+  }
+}
