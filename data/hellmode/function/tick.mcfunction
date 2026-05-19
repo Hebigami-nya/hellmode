@@ -1,9 +1,6 @@
 # Basic time counter for a 20 ticks interval
 scoreboard players add #20ticksLoop timer 1
 
-# Basic time counter for a 10 sec interval (20 ticks = 1 sec)
-scoreboard players add #10secondsLoop timer 1
-
 # Generates a new random value to fine-tune random events
 execute if score #20ticksLoop timer matches 20 store result score #random random run random value 0..999
 
@@ -53,4 +50,3 @@ scoreboard players set @a[scores={used_iron_hoe=1..}] used_iron_hoe 0
 
 # Reset time counters
 execute if score #20ticksLoop timer matches 20.. run scoreboard players set #20ticksLoop timer 0
-execute if score #10secondsLoop timer matches 200.. run scoreboard players set #10secondsLoop timer 0
