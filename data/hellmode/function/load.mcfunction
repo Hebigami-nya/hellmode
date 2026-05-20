@@ -1,3 +1,6 @@
+# Set difficulty
+difficulty hard
+
 # Time tracking
 scoreboard objectives add timer dummy
 scoreboard players set #20ticksLoop timer 0
@@ -19,11 +22,6 @@ scoreboard objectives add used_iron_hoe minecraft.used:minecraft.iron_hoe
 scoreboard objectives add killed_sheep minecraft.killed:minecraft.sheep
 scoreboard objectives add killed_cow minecraft.killed:minecraft.cow
 scoreboard objectives add killed_pig minecraft.killed:minecraft.pig
-
-# Set daytime to midnight
-time set 18000
-# Stop day/night cycle
-time pause
 
 # Required to prevent players from sleeping
 scoreboard objectives add times_slept minecraft.custom:minecraft.sleep_in_bed
