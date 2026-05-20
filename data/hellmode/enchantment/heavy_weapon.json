@@ -1,0 +1,63 @@
+{
+  "description": "Heavy Weapon",
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "minecraft:attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.1,
+          "per_level_above_first": -0.1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "minecraft:attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:gravity",
+        "id": "minecraft:gravity",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.05,
+          "per_level_above_first": 0.05
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "minecraft:movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.02,
+          "per_level_above_first": -0.02
+        },
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}
