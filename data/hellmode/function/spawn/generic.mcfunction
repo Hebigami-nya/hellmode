@@ -52,6 +52,10 @@ execute if score #random random matches 0..399 run data merge entity @e[type=cre
 # A small and fast creeper with reduced explosiveness
 execute if score #random random matches 400..999 run data merge entity @e[type=creeper,tag=!modified,limit=1] {id:"minecraft:creeper",ExplosionRadius:2b,Tags:["modified","tiny_sweeper"],CustomName:{"shadow_color":-5636096,"text":"Tiny Sweeper"},equipment:{head:{id:"minecraft:creeper_head",count:1,components:{"minecraft:attribute_modifiers":[{id:"movement_speed",type:"movement_speed",amount:0.6,operation:"add_multiplied_base",slot:"head"}]}}},drop_chances:{head:0.000},attributes:[{id:"minecraft:follow_range",base:64},{id:"minecraft:scale",base:0.2}]}
 
+# Empowered Ghast
+# More explosion power
+execute if score #random random matches 100..999 run data merge entity @e[type=ghast,tag=!modified,limit=1]  {id:"minecraft:ghast",ExplosionPower:12}
+
 # Swarm Spider
 # A small poisous spider that swarms the Player
 execute if score #random random matches 0..499 at @e[type=spider,tag=!modified,limit=1] run summon cave_spider ~ ~ ~ {id:"minecraft:cave_spider",Health:6f,Tags:["modified","swarm_spider"],CustomName:{"shadow_color":-5636096,"text":"Swarm Spider"},equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":"MHF_CaveSpider","minecraft:custom_name":"Swarm Spider Head","minecraft:custom_data":{hasPoisonPowers:1b},"minecraft:lore":[{"italic":true,"text":"Poison Powers"}],"minecraft:attribute_modifiers":[{id:"armor",type:"armor",amount:2,operation:"add_value"}]}}},drop_chances:{head:0.200},attributes:[{id:"minecraft:attack_damage",base:2},{id:"minecraft:scale",base:0.2}]}
@@ -97,11 +101,4 @@ execute if score #random random matches 500..999 run data merge entity @e[type=p
 # A medium sized Silverfish, breaks blocks in front
 execute if score #random random matches 0..299 at @e[type=spider,tag=!modified,limit=1] run summon silverfish ~ ~ ~  {id:"minecraft:silverfish",Health:60f,Tags:["modified","tunneler"],CustomName:{"shadow_color":-5636096,"text":"Tunneler"},attributes:[{id:"minecraft:attack_damage",base:10},{id:"minecraft:follow_range",base:128},{id:"minecraft:scale",base:2}]}
 
-# Monsters larger then 2m should be summoned and distributed with /spreadplayers to avoid getting them stuck in a cave
-# Keep in mind summoning bypasses the mobcap - all chances need to be very low
-
-# Randomly distributes all summoned monsters above ground
-spreadplayers ~ ~ 80 120 false @e[tag=summoned]
-# Cleanup after distribution
-tag @e[tag=summoned] remove summoned 
 

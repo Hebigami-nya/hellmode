@@ -4,6 +4,7 @@ difficulty hard
 # Time tracking
 scoreboard objectives add timer dummy
 scoreboard players set #20ticksLoop timer 0
+scoreboard players set #daytime timer 0
 
 # Random generator
 scoreboard objectives add random dummy
