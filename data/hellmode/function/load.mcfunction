@@ -24,6 +24,9 @@ scoreboard objectives add killed_sheep minecraft.killed:minecraft.sheep
 scoreboard objectives add killed_cow minecraft.killed:minecraft.cow
 scoreboard objectives add killed_pig minecraft.killed:minecraft.pig
 
+# Lightning Core
+scoreboard objectives add lightning dummy
+
 # Required to prevent players from sleeping
 scoreboard objectives add times_slept minecraft.custom:minecraft.sleep_in_bed
 

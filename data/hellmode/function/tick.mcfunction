@@ -18,7 +18,9 @@ scoreboard players set @a[scores={times_slept=1..}] times_slept 0
 
 # Abilities
 function hellmode:ability/skeleton_farmer
+function hellmode:ability/overlord_of_storms_tick
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_the_drowned
+execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_storms_sec
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/death_observer
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/tunneler
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sneaky_enderman
