@@ -27,6 +27,10 @@ scoreboard objectives add killed_pig minecraft.killed:minecraft.pig
 # Lightning Core
 scoreboard objectives add lightning dummy
 
+# Tracks if player kills a lot of mobs in a short time to avoid hyper efficient farming
+scoreboard objectives add loot_balancing dummy
+scoreboard players set @a loot_balancing 0
+
 # Required to prevent players from sleeping
 scoreboard objectives add times_slept minecraft.custom:minecraft.sleep_in_bed
 
