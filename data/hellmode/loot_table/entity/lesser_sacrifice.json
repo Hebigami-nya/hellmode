@@ -8,7 +8,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_boots",
+          "name": "minecraft:diamond_boots",
           "functions": [
             {
               "function": "set_count",
@@ -27,7 +27,7 @@
                   {
                     "id": "armor",
                     "type": "armor",
-                    "amount": 2,
+                    "amount": 4,
                     "operation": "add_value"
                   },
                   {
@@ -43,7 +43,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Agile Iron Boots"
+                  "text": "Agile Diamond Boots"
                 }
               ]
             }
@@ -52,7 +52,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_boots",
+          "name": "minecraft:diamond_boots",
           "functions": [
             {
               "function": "set_count",
@@ -65,6 +65,50 @@
                   {
                     "id": "attack_damage_per",
                     "type": "attack_damage",
+                    "amount": -0.1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": 6,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Scared Diamond Boots"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_damage_per",
+                    "type": "attack_damage",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "attack_speed",
+                    "type": "attack_speed",
                     "amount": -0.1,
                     "operation": "add_multiplied_total"
                   },
@@ -81,7 +125,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Scared Iron Boots"
+                  "text": "Angry Diamond Boots"
                 }
               ]
             }
@@ -90,51 +134,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_boots",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "attack_damage_per",
-                    "type": "attack_damage",
-                    "amount": 0.1,
-                    "operation": "add_multiplied_total"
-                  },
-                  {
-                    "id": "attack_speed",
-                    "type": "attack_speed",
-                    "amount": -0.1,
-                    "operation": "add_multiplied_total"
-                  },
-                  {
-                    "id": "armor",
-                    "type": "armor",
-                    "amount": 2,
-                    "operation": "add_value"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Angry Iron Boots"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_leggings",
+          "name": "minecraft:diamond_leggings",
           "functions": [
             {
               "function": "set_count",
@@ -148,50 +148,6 @@
                     "id": "attack_speed",
                     "type": "attack_speed",
                     "amount": 0.1,
-                    "operation": "add_multiplied_total"
-                  },
-                  {
-                    "id": "armor",
-                    "type": "armor",
-                    "amount": 5,
-                    "operation": "add_value"
-                  },
-                  {
-                    "id": "movement_speed",
-                    "type": "movement_speed",
-                    "amount": 0.1,
-                    "operation": "add_multiplied_base"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Agile Iron Leggings"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_leggings",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "attack_damage_per",
-                    "type": "attack_damage",
-                    "amount": -0.1,
                     "operation": "add_multiplied_total"
                   },
                   {
@@ -199,88 +155,6 @@
                     "type": "armor",
                     "amount": 7,
                     "operation": "add_value"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Scared Iron Leggings"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_leggings",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "attack_damage_per",
-                    "type": "attack_damage",
-                    "amount": 0.1,
-                    "operation": "add_multiplied_total"
-                  },
-                  {
-                    "id": "attack_speed",
-                    "type": "attack_speed",
-                    "amount": -0.1,
-                    "operation": "add_multiplied_total"
-                  },
-                  {
-                    "id": "armor",
-                    "type": "armor",
-                    "amount": 5,
-                    "operation": "add_value"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Angry Iron Leggings"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_chestplate",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "attack_speed",
-                    "type": "attack_speed",
-                    "amount": 0.1,
-                    "operation": "add_multiplied_total"
-                  },
-                  {
-                    "id": "armor",
-                    "type": "armor",
-                    "amount": 6,
-                    "operation": "add_value"
                   },
                   {
                     "id": "movement_speed",
@@ -295,7 +169,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Agile Iron Chestplate"
+                  "text": "Agile Diamond Leggings"
                 }
               ]
             }
@@ -304,7 +178,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_chestplate",
+          "name": "minecraft:diamond_leggings",
           "functions": [
             {
               "function": "set_count",
@@ -333,7 +207,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Scared Iron Chestplate"
+                  "text": "Scared Diamond Leggings"
                 }
               ]
             }
@@ -342,7 +216,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_chestplate",
+          "name": "minecraft:diamond_leggings",
           "functions": [
             {
               "function": "set_count",
@@ -367,7 +241,7 @@
                   {
                     "id": "armor",
                     "type": "armor",
-                    "amount": 6,
+                    "amount": 7,
                     "operation": "add_value"
                   }
                 ]
@@ -377,7 +251,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Angry Iron Chestplate"
+                  "text": "Angry Diamond Leggings"
                 }
               ]
             }
@@ -386,7 +260,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_helmet",
+          "name": "minecraft:diamond_chestplate",
           "functions": [
             {
               "function": "set_count",
@@ -405,7 +279,7 @@
                   {
                     "id": "armor",
                     "type": "armor",
-                    "amount": 2,
+                    "amount": 8,
                     "operation": "add_value"
                   },
                   {
@@ -421,7 +295,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Agile Iron Helmet"
+                  "text": "Agile Diamond Chestplate"
                 }
               ]
             }
@@ -430,7 +304,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_helmet",
+          "name": "minecraft:diamond_chestplate",
           "functions": [
             {
               "function": "set_count",
@@ -443,6 +317,176 @@
                   {
                     "id": "attack_damage_per",
                     "type": "attack_damage",
+                    "amount": -0.1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": 11,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Scared Diamond Chestplate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_damage_per",
+                    "type": "attack_damage",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "attack_speed",
+                    "type": "attack_speed",
+                    "amount": -0.1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": 8,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Angry Diamond Chestplate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_speed",
+                    "type": "attack_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": 4,
+                    "operation": "add_value"
+                  },
+                  {
+                    "id": "movement_speed",
+                    "type": "movement_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Agile Diamond Helmet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_damage_per",
+                    "type": "attack_damage",
+                    "amount": -0.1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": 6,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Scared Diamond Helmet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_damage_per",
+                    "type": "attack_damage",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "attack_speed",
+                    "type": "attack_speed",
                     "amount": -0.1,
                     "operation": "add_multiplied_total"
                   },
@@ -459,51 +503,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Scared Iron Helmet"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_helmet",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "attack_damage_per",
-                    "type": "attack_damage",
-                    "amount": 0.1,
-                    "operation": "add_multiplied_total"
-                  },
-                  {
-                    "id": "attack_speed",
-                    "type": "attack_speed",
-                    "amount": -0.1,
-                    "operation": "add_multiplied_total"
-                  },
-                  {
-                    "id": "armor",
-                    "type": "armor",
-                    "amount": 2,
-                    "operation": "add_value"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Angry Iron Helmet"
+                  "text": "Angry Diamond Helmet"
                 }
               ]
             }
@@ -512,7 +512,7 @@
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:diamond_sword",
           "functions": [
             {
               "function": "set_count",
@@ -525,7 +525,7 @@
                   {
                     "id": "attack_damage",
                     "type": "attack_damage",
-                    "amount": 6,
+                    "amount": 8,
                     "operation": "add_value"
                   },
                   {
@@ -547,7 +547,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Scared Iron Sword"
+                  "text": "Scared Diamond Sword"
                 }
               ]
             }
@@ -556,7 +556,7 @@
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:diamond_sword",
           "functions": [
             {
               "function": "set_count",
@@ -569,7 +569,7 @@
                   {
                     "id": "attack_damage",
                     "type": "attack_damage",
-                    "amount": 6,
+                    "amount": 8,
                     "operation": "add_value"
                   },
                   {
@@ -591,7 +591,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Angry Iron Sword"
+                  "text": "Angry Diamond Sword"
                 }
               ]
             }
@@ -600,7 +600,7 @@
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:diamond_sword",
           "functions": [
             {
               "function": "set_count",
@@ -613,7 +613,7 @@
                   {
                     "id": "attack_damage",
                     "type": "attack_damage",
-                    "amount": 6,
+                    "amount": 8,
                     "operation": "add_value"
                   },
                   {
@@ -635,7 +635,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Agile Iron Sword"
+                  "text": "Agile Diamond Sword"
                 }
               ]
             }
