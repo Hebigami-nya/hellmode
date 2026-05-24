@@ -752,7 +752,7 @@
                   {
                     "id": "attack_damage",
                     "type": "attack_damage",
-                    "amount": 0.15,
+                    "amount": 0.3,
                     "operation": "add_multiplied_total",
                     "slot": "offhand"
                   }
@@ -786,7 +786,7 @@
                   {
                     "id": "movement_speed",
                     "type": "movement_speed",
-                    "amount": 0.15,
+                    "amount": 0.3,
                     "operation": "add_multiplied_total",
                     "slot": "offhand"
                   }
@@ -820,14 +820,14 @@
                   {
                     "id": "armor",
                     "type": "armor",
-                    "amount": 0.15,
+                    "amount": 0.2,
                     "operation": "add_multiplied_total",
                     "slot": "offhand"
                   },
                   {
                     "id": "armor_toughness",
                     "type": "armor_toughness",
-                    "amount": 0.15,
+                    "amount": 0.3,
                     "operation": "add_multiplied_total",
                     "slot": "offhand"
                   }
