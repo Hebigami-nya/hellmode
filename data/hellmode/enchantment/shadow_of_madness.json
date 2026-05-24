@@ -1,0 +1,63 @@
+{
+  "description": "Shadow of Madness",
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:darkness",
+          "min_duration": 6,
+          "max_duration": 6,
+          "min_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 0
+          },
+          "max_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 0
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:strength",
+          "min_duration": 6,
+          "max_duration": 6,
+          "min_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          },
+          "max_amplifier": {
+            "type": "minecraft:linear",
+            "base": 0,
+            "per_level_above_first": 1
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

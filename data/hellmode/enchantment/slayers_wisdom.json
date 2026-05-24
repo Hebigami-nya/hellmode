@@ -1,0 +1,33 @@
+{
+  "description": "Slayer's Wisdom",
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 2
+          }
+        }
+      }
+    ]
+  }
+}

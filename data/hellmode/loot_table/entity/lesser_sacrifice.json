@@ -716,6 +716,134 @@
               }
             }
           ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:penetrating": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_damage",
+                    "type": "attack_damage",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "shadow_color": -22016,
+                  "text": "Horn of Lesser Strength"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "movement_speed",
+                    "type": "movement_speed",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "shadow_color": -22016,
+                  "text": "Horn of Lesser Speed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  },
+                  {
+                    "id": "armor_toughness",
+                    "type": "armor_toughness",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "shadow_color": -22016,
+                  "text": "Horn of Lesser Defense"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

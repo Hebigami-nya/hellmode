@@ -1,0 +1,504 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "hellmode:heavy_weapon": 5,
+                  "hellmode:penetrating": 5
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "text": "The Amaceing One"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "sharpness": 6,
+                  "looting": 10,
+                  "hellmode:slayers_wisdom": 5
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "The Collector"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "fortune": 10,
+                  "hellmode:miners_wisdom": 10
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "Pickaxe of Luck"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "unbreaking": 10,
+                  "mending": 1,
+                  "hellmode:builders_reach": 10
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "Eternal Shovel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "hellmode:divine_wrath": 1,
+                  "hellmode:builders_reach": 10,
+                  "hellmode:slayers_reach": 10
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "Hoe of Divine Thunder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "efficiency": 5,
+                  "sharpness": 5,
+                  "hellmode:builders_reach": 3,
+                  "hellmode:slayers_reach": 3,
+                  "hellmode:penetrating": 2
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "Farsplitter Axe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "efficiency": 7,
+                  "silk_touch": 1,
+                  "hellmode:builders_reach": 3
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "Grasping Pickaxe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_damage",
+                    "type": "attack_damage",
+                    "amount": 10,
+                    "operation": "add_value"
+                  },
+                  {
+                    "id": "movement_speed",
+                    "type": "movement_speed",
+                    "amount": 0.2,
+                    "operation": "add_multiplied_total"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "hellmode:withering": 3,
+                  "hellmode:penetrating": 2
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "Withering Hunter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_damage",
+                    "type": "attack_damage",
+                    "amount": 10,
+                    "operation": "add_value"
+                  },
+                  {
+                    "id": "attack_damage_per",
+                    "type": "attack_damage",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": -0.3,
+                    "operation": "add_multiplied_total"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "hellmode:shadow_of_madness": 3,
+                  "hellmode:penetrating": 2
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "Raging Deathblade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "looting": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "fortune": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "unbreaking": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:penetrating": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "attack_damage",
+                    "type": "attack_damage",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "shadow_color": -22016,
+                  "text": "Horn of Greater Strength"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "movement_speed",
+                    "type": "movement_speed",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "shadow_color": -22016,
+                  "text": "Horn of Greater Speed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  },
+                  {
+                    "id": "armor_toughness",
+                    "type": "armor_toughness",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "shadow_color": -22016,
+                  "text": "Horn of Greater Defense"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

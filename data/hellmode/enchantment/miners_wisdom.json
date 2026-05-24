@@ -1,0 +1,33 @@
+{
+  "description": "Miner's Wisdom",
+  "supported_items": "#minecraft:enchantable/mining",
+  "primary_items": "#minecraft:enchantable/mining",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:block_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 2
+          }
+        }
+      }
+    ]
+  }
+}

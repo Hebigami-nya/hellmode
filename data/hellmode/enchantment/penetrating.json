@@ -1,0 +1,33 @@
+{
+  "description": "Penetrating",
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.8,
+            "per_level_above_first": -0.2
+          }
+        }
+      }
+    ]
+  }
+}
