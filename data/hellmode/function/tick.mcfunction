@@ -7,8 +7,11 @@ scoreboard players add #daytime timer 1
 # Generates a new random value to fine-tune random events
 execute if score #20ticksLoop timer matches 20 store result score #random random run random value 0..999
 
+# Make air in the Nightmare world climbable
+execute if score #20ticksLoop timer matches 10 run function hellmode:dimension/nightmare_world
+
 # Spawn monsters
-execute if score #20ticksLoop timer matches 20 run function hellmode:spawn/generic
+execute if score #20ticksLoop timer matches 10 run function hellmode:spawn/generic
 
 # Spawn bosses and Altar of Eternity
 execute if score #daytime timer matches 18000 run function hellmode:spawn/boss
