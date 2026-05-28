@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "hellmode:nightmare_world",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "hellmode:nightmare_land"
+    }
+  }
+}

@@ -24,6 +24,11 @@ scoreboard objectives add killed_sheep minecraft.killed:minecraft.sheep
 scoreboard objectives add killed_cow minecraft.killed:minecraft.cow
 scoreboard objectives add killed_pig minecraft.killed:minecraft.pig
 
+# Allows tracking of last player position
+scoreboard objectives add last_pos_x dummy X
+scoreboard objectives add last_pos_y dummy Y
+scoreboard objectives add last_pos_z dummy Z
+
 # Lightning Core
 scoreboard objectives add lightning dummy
 

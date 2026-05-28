@@ -1,0 +1,20 @@
+{
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 5395031,
+    "fog_color": 4342344,
+    "water_color": 3092274,
+    "water_fog_color": 1579035,
+    "grass_color": 6974060,
+    "foliage_color": 2829141,
+    "dry_foliage_color": 2039613,
+    "grass_color_modifier": "none"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": "hellmode:nightmare_cave",
+  "features": []
+}
