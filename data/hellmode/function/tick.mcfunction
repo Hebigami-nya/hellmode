@@ -8,7 +8,10 @@ scoreboard players add #daytime timer 1
 execute if score #20ticksLoop timer matches 20 store result score #random random run random value 0..999
 
 # Make air in the Nightmare world climbable
-execute if score #20ticksLoop timer matches 10 run function hellmode:dimension/nightmare_world
+execute if score #20ticksLoop timer matches 20 run function hellmode:dimension/nightmare_world
+
+# Teleports sleeping Player to the Nightmare Realm
+execute if score #20ticksLoop timer matches 20 as @a[scores={times_slept=1..}] run function hellmode:dimension/nightmare_teleport
 
 # Spawn monsters
 execute if score #20ticksLoop timer matches 10 run function hellmode:spawn/generic
@@ -19,11 +22,6 @@ execute if score #daytime timer matches 18000 run function hellmode:spawn/boss
 # Altar of Eternity Sacrifice
 execute if score #20ticksLoop timer matches 20 run function hellmode:loot/lesser_sacrifice
 execute if score #20ticksLoop timer matches 20 run function hellmode:loot/greater_sacrifice
-
-# Prevent Sleeping
-effect give @a[scores={times_slept=1..}] wither 1 2
-execute as @e[type=creeper,limit=1] run msg @a[scores={times_slept=1..}] "There is no sleep in Hell..."
-scoreboard players set @a[scores={times_slept=1..}] times_slept 0
 
 # Abilities
 function hellmode:ability/skeleton_farmer
