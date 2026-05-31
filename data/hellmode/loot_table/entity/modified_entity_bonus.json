@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "item",
-          "weight": 10,
+          "weight": 33,
           "name": "minecraft:ghast_tear",
           "functions": [
             {
@@ -47,7 +47,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 4,
           "name": "minecraft:quartz",
           "functions": [
             {
@@ -87,7 +87,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 39
+          "weight": 63
         }
       ]
     }

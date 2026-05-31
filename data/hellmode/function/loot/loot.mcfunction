@@ -13,4 +13,4 @@ execute if score @s loot_balancing matches 60..79 if score #random random matche
 execute if score @s loot_balancing matches 80..99 if score #random random matches 0..199 run loot spawn ~ ~ ~ loot hellmode:entity/modified_entity_bonus
 
 # Increases the loot_balancing score whenever that player kills a modified monster
-scoreboard players add @s[scores={loot_balancing=..100}] loot_balancing 10
+scoreboard players add @s[scores={loot_balancing=..100}] loot_balancing 15
