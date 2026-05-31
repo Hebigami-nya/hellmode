@@ -1,0 +1,29 @@
+{
+  "description": "Supporting Hunter",
+  "supported_items": "minecraft:wolf_armor",
+  "primary_items": "minecraft:wolf_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "hellmode:enchantment/supporting_hunter"
+        }
+      }
+    ]
+  }
+}

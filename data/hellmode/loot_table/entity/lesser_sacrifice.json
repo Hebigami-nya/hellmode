@@ -8,6 +8,192 @@
         {
           "type": "item",
           "weight": 1,
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "hellmode:pack_leader": 1,
+                  "mending": 1,
+                  "unbreaking": 3
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:resin",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Boots of the Wolfkin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "hellmode:pack_leader": 1,
+                  "mending": 1,
+                  "unbreaking": 3
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:resin",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Leggings of the Wolfkin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "hellmode:pack_leader": 1,
+                  "mending": 1,
+                  "unbreaking": 3
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:resin",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Chestplate of the Wolfkin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "hellmode:pack_leader": 1,
+                  "mending": 1,
+                  "unbreaking": 3
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:resin",
+                  "pattern": "minecraft:silence"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Helmet of the Wolfkin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_horse_armor",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "movement_speed",
+                    "type": "movement_speed",
+                    "amount": 3,
+                    "operation": "add_multiplied_total",
+                    "slot": "armor"
+                  },
+                  {
+                    "id": "armor",
+                    "type": "armor",
+                    "amount": 20,
+                    "operation": "add_value",
+                    "slot": "armor"
+                  },
+                  {
+                    "id": "water_movement_efficiency",
+                    "type": "water_movement_efficiency",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "armor"
+                  },
+                  {
+                    "id": "scale",
+                    "type": "scale",
+                    "amount": -0.5,
+                    "operation": "add_multiplied_total",
+                    "slot": "armor"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Horse Armor of Shrinking"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:diamond_boots",
           "functions": [
             {
