@@ -32,6 +32,9 @@ scoreboard objectives add last_pos_z dummy Z
 # Lightning Core
 scoreboard objectives add lightning dummy
 
+# Counts the wolf for Pack Leader
+scoreboard objectives add wolf_count dummy
+
 # Tracks if player kills a lot of mobs in a short time to avoid hyper efficient farming
 scoreboard objectives add loot_balancing dummy
 scoreboard players set @a loot_balancing 0
