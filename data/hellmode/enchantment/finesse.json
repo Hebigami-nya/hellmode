@@ -20,7 +20,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:attack_speed",
-        "id": "minecraft:attack_speed",
+        "id": "hellmode:attack_speed_enchanted",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.2,

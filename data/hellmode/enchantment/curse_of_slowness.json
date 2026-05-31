@@ -24,7 +24,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:movement_speed",
-        "id": "minecraft:movement_speed",
+        "id": "hellmode:movement_speed_cursed",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.05,

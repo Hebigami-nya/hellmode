@@ -20,7 +20,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:armor",
-        "id": "minecraft:armor",
+        "id": "hellmode:armor_enchanted",
         "amount": {
           "type": "minecraft:linear",
           "base": 1,
@@ -30,7 +30,7 @@
       },
       {
         "attribute": "minecraft:armor_toughness",
-        "id": "minecraft:armor_toughness",
+        "id": "hellmode:armor_toughness_enchanted",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.5,

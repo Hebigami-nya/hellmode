@@ -262,13 +262,13 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "attack_damage",
+                    "id": "hellmode:attack_damage",
                     "type": "attack_damage",
                     "amount": 10,
                     "operation": "add_value"
                   },
                   {
-                    "id": "movement_speed",
+                    "id": "hellmode:movement_speed",
                     "type": "movement_speed",
                     "amount": 0.2,
                     "operation": "add_multiplied_total"
@@ -306,22 +306,22 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "attack_damage",
+                    "id": "hellmode:attack_damage",
                     "type": "attack_damage",
                     "amount": 10,
                     "operation": "add_value"
                   },
                   {
-                    "id": "attack_damage_per",
+                    "id": "hellmode:attack_damage_per",
                     "type": "attack_damage",
                     "amount": 0.3,
                     "operation": "add_multiplied_total"
                   },
                   {
-                    "id": "armor",
+                    "id": "hellmode:armor",
                     "type": "armor",
-                    "amount": -0.3,
-                    "operation": "add_multiplied_total"
+                    "amount": -4,
+                    "operation": "add_value"
                   }
                 ],
                 "minecraft:enchantments": {
@@ -432,7 +432,7 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "attack_damage",
+                    "id": "hellmode:attack_damage",
                     "type": "attack_damage",
                     "amount": 0.5,
                     "operation": "add_multiplied_total",
@@ -466,7 +466,7 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "movement_speed",
+                    "id": "hellmode:movement_speed",
                     "type": "movement_speed",
                     "amount": 0.5,
                     "operation": "add_multiplied_total",
@@ -500,17 +500,17 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "armor",
+                    "id": "hellmode:armor",
                     "type": "armor",
-                    "amount": 0.3,
-                    "operation": "add_multiplied_total",
+                    "amount": 6,
+                    "operation": "add_value",
                     "slot": "offhand"
                   },
                   {
-                    "id": "armor_toughness",
+                    "id": "hellmode:armor_toughness",
                     "type": "armor_toughness",
-                    "amount": 0.5,
-                    "operation": "add_multiplied_total",
+                    "amount": 4,
+                    "operation": "add_value",
                     "slot": "offhand"
                   }
                 ]
