@@ -4,8 +4,8 @@ execute at @a if entity @e[tag=swarm_spider,distance=..3] run summon cave_spider
 
 # Swarm Spider Drop Ability
 # Give Players a buff when they are poisoned
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.head *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:strength 6 3
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.head *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:regeneration 6 0
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.chest *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:resistance 6 2
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.legs *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:jump_boost 6 3
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.feet *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:speed 6 3
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.head *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:strength 3 3
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.head *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:regeneration 3 0
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.chest *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:resistance 3 2
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.legs *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:jump_boost 3 3
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.feet *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:speed 3 3
