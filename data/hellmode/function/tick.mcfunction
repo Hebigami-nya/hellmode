@@ -28,10 +28,12 @@ function hellmode:ability/skeleton_farmer
 function hellmode:ability/overlord_of_storms_tick
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_the_drowned
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_storms_sec
+execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sorcerours_overlord
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/death_observer
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/tunneler
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sneaky_enderman
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/swarm_spider
+
 
 # Counts the loot_balancing down
 execute if score #20ticksLoop timer matches 20 run scoreboard players remove @a[scores={loot_balancing=1..}] loot_balancing 1

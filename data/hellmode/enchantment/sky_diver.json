@@ -1,0 +1,37 @@
+{
+  "description": "Sky Diver",
+  "supported_items": "minecraft:heavy_core",
+  "primary_items": "minecraft:heavy_core",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "hellmode:fall_damage_multiplier_ench",
+        "amount": -1,
+        "operation": "add_multiplied_total"
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "hellmode:enchantment/sky_diver"
+        }
+      }
+    ]
+  }
+}
