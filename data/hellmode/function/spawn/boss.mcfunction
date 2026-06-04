@@ -3,11 +3,14 @@
 # Boss Monster need PERSISTANCE REQUIRED = true - will get removed when a new one spawns
 
 # Creates a new Altar if none is near a randomly chosen player
-execute at @r unless entity @e[type=end_crystal,distance=..200] run summon end_crystal ~ ~100 ~ {Invulnerable:1b,ShowBottom:0b,Tags:["modified","summoned"],CustomName:{"color":"black","shadow_color":-5635926,"text":"Alter of Eternity"}}
+execute at @r unless entity @e[type=end_crystal,distance=..100] run summon end_crystal ~ ~100 ~ {Invulnerable:1b,ShowBottom:0b,Tags:["modified","summoned"],CustomName:{"color":"black","shadow_color":-5635926,"text":"Alter of Eternity"}}
 execute as @e[type=end_crystal,tag=summoned] run teleport end_crystal ~ ~1 ~ 
 
+# Creates a dummy boss if non exists
+execute unless entity @e[tag=boss] at @r run summon bat ~ ~100 ~ {Silent:1b,Invulnerable:1b,Tags:["modified","boss","dummy_boss"]}
+
 # prepares old boss to be removed if he isn't surround by a player
-execute as @e[tag=boss] unless entity @p[distance=...30] run tag @s add to_remove
+execute as @e[tag=boss] at @s unless entity @p[distance=...30] run tag @s add to_remove
 
 # Crittering Overlord
 # A massive cave spider that spawns more spiders
@@ -21,6 +24,7 @@ execute if entity @e[tag=boss,tag=to_remove] if score #random random matches 400
 # A wither skeleton that summons lightning
 execute if entity @e[tag=boss,tag=to_remove] if score #random random matches 700..999 at @r run summon wither_skeleton ~ ~100 ~  {id:"minecraft:wither_skeleton",CustomNameVisible:1b,PersistenceRequired:1b,Health:200f,Tags:["modified","boss","summoned","overlord_of_storms"],CustomName:{"shadow_color":-43521,"text":"Overlord of Storms"},equipment:{feet:{id:"minecraft:netherite_boots",count:1,components:{"minecraft:enchantments":{"hellmode:plating":5,"depth_strider":3,"mending":1,"unbreaking":3},"minecraft:trim":{material:"minecraft:gold",pattern:"minecraft:flow"},"minecraft:custom_name":{"shadow_color":-43521,"text":"Lightning Boots"}}},legs:{id:"minecraft:netherite_leggings",count:1,components:{"minecraft:enchantments":{"hellmode:plating":5,"mending":1,"unbreaking":3},"minecraft:trim":{material:"minecraft:gold",pattern:"minecraft:flow"},"minecraft:custom_name":{"shadow_color":-43521,"text":"Lightning Leggings"}}},chest:{id:"minecraft:netherite_chestplate",count:1,components:{"minecraft:enchantments":{"hellmode:plating":5,"mending":1,"unbreaking":3},"minecraft:trim":{material:"minecraft:gold",pattern:"minecraft:flow"},"minecraft:custom_name":{"shadow_color":-43521,"text":"Lightning Chestplate"}}},head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyMjU2MzVmZTY2Y2NlZDVlMWYxMDMwYTExYmZiZTFlMjhhODc0NWY5MjBlN2I3MDc2ZWI2NjljOTAyMjgzIn19fQ=="}]}}},mainhand:{id:"minecraft:netherite_axe",count:1,components:{"minecraft:custom_name":{"shadow_color":-43521,"text":"Overlord's Lightning Axe"},"minecraft:enchantments":{"hellmode:divine_wrath":1,"efficiency":8,"mending":1,"unbreaking":3}}},offhand:{id:"minecraft:heavy_core",count:1,components:{"minecraft:enchantment_glint_override":true,"minecraft:custom_data":{givesLightningBuffs:1b},"minecraft:custom_name":{"color":"black","shadow_color":-43521,"text":"Lightning Core"},"minecraft:lore":[{"italic":true,"text":"Chained Lightning"}]}}},drop_chances:{feet:0.500,legs:0.500,chest:0.500,head:0.000,mainhand:0.800,offhand:1.000},attributes:[{id:"minecraft:follow_range",base:128},{id:"minecraft:max_health",base:200},{id:"minecraft:scale",base:0.8}]}
 
+execute as @e[tag=boss] run say i'm the boss!
 
 # teleports old boss away
 teleport @e[tag=boss,tag=to_remove] -100000 0 0
