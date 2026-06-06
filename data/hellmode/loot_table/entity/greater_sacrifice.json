@@ -355,7 +355,26 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
-                  "looting": 7
+                  "hellmode:slayers_reach": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:escape_velocity": 5
                 }
               }
             }
@@ -374,26 +393,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
-                  "fortune": 7
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:stored_enchantments": {
-                  "unbreaking": 10
+                  "hellmode:unbreakable": 1
                 }
               }
             }

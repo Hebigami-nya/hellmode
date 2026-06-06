@@ -27,6 +27,7 @@ execute if score #20ticksLoop timer matches 20 run function hellmode:loot/greate
 function hellmode:ability/skeleton_farmer
 function hellmode:ability/overlord_of_storms_tick
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_the_drowned
+execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_mirrors
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_storms_sec
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sorcerours_overlord
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/death_observer

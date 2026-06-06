@@ -35,6 +35,10 @@ scoreboard objectives add lightning dummy
 # Counts the wolf for Pack Leader
 scoreboard objectives add wolf_count dummy
 
+# Overlord of Mirrors tracking
+scoreboard objectives add overlord_of_mirrors_count dummy
+scoreboard objectives add overlord_of_mirrors_summon_cooldown dummy
+
 # Tracks if player kills a lot of mobs in a short time to avoid hyper efficient farming
 scoreboard objectives add loot_balancing dummy
 scoreboard players set @a loot_balancing 0

@@ -881,7 +881,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
-                  "fortune": 4
+                  "fortune": 3
                 }
               }
             }
@@ -900,7 +900,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
-                  "looting": 4
+                  "looting": 3
                 }
               }
             }
@@ -919,7 +919,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
-                  "unbreaking": 5
+                  "unbreaking": 3
                 }
               }
             }
