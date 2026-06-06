@@ -30,6 +30,7 @@ execute if score #20ticksLoop timer matches 20 run function hellmode:ability/ove
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_mirrors
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_storms_sec
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sorcerours_overlord
+execute if score #20ticksLoop timer matches 20 run function hellmode:ability/invisible_stalker
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/death_observer
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/tunneler
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sneaky_enderman

@@ -40,6 +40,12 @@ scoreboard objectives add overlord_of_mirrors_count dummy
 scoreboard objectives add overlord_of_mirrors_summon_cooldown dummy
 scoreboard objectives add mirror_core_resistance dummy
 
+# Invisible Stalker
+scoreboard objectives add invisible_stalker_speed dummy
+
+# Assassinate enchantment
+scoreboard objectives add assassinate_strength dummy
+
 # Tracks if player kills a lot of mobs in a short time to avoid hyper efficient farming
 scoreboard objectives add loot_balancing dummy
 scoreboard players set @a loot_balancing 0

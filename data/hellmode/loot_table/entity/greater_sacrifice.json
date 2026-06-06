@@ -526,6 +526,52 @@
               ]
             }
           ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "hellmode:attack_damage",
+                    "type": "attack_damage",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "hellmode:attack_damage_per",
+                    "type": "attack_damage",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "hellmode:assassinate": 1,
+                  "mending": 1
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": true,
+                  "shadow_color": -22016,
+                  "text": "Silent Death"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
