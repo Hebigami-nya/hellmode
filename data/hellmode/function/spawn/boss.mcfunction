@@ -41,3 +41,6 @@ teleport @e[tag=boss,tag=to_remove] -100000 0 0
 spreadplayers ~ ~ 80 120 false @e[tag=summoned]
 # Cleanup after distribution
 tag @e[tag=summoned] remove summoned 
+
+# Announces a little later to have a new random number
+schedule function hellmode:spawn/announcement 30t append
