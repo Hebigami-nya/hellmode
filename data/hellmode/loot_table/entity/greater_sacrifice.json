@@ -306,19 +306,19 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "hellmode:attack_damage",
+                    "id": "hellmode:attack_damage_mainhand",
                     "type": "attack_damage",
                     "amount": 10,
                     "operation": "add_value"
                   },
                   {
-                    "id": "hellmode:attack_damage_per",
+                    "id": "hellmode:attack_damage_per_mainhand",
                     "type": "attack_damage",
                     "amount": 0.3,
                     "operation": "add_multiplied_total"
                   },
                   {
-                    "id": "hellmode:armor",
+                    "id": "hellmode:armor_mainhand",
                     "type": "armor",
                     "amount": -4,
                     "operation": "add_value"
@@ -432,7 +432,7 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "hellmode:attack_damage",
+                    "id": "hellmode:attack_damage_offhand",
                     "type": "attack_damage",
                     "amount": 0.5,
                     "operation": "add_multiplied_total",
@@ -466,7 +466,7 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "hellmode:movement_speed",
+                    "id": "hellmode:movement_speed_offhand",
                     "type": "movement_speed",
                     "amount": 0.5,
                     "operation": "add_multiplied_total",
@@ -500,14 +500,14 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "hellmode:armor",
+                    "id": "hellmode:armor_offhand",
                     "type": "armor",
                     "amount": 6,
                     "operation": "add_value",
                     "slot": "offhand"
                   },
                   {
-                    "id": "hellmode:armor_toughness",
+                    "id": "hellmode:armor_toughness_offhand",
                     "type": "armor_toughness",
                     "amount": 4,
                     "operation": "add_value",
@@ -541,14 +541,14 @@
               "components": {
                 "minecraft:attribute_modifiers": [
                   {
-                    "id": "hellmode:attack_damage",
+                    "id": "hellmode:attack_damage_mainhand",
                     "type": "attack_damage",
                     "amount": 6,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
                   {
-                    "id": "hellmode:attack_damage_per",
+                    "id": "hellmode:attack_damage_per_mainhand",
                     "type": "attack_damage",
                     "amount": 0.5,
                     "operation": "add_multiplied_total",
