@@ -54,8 +54,10 @@ scoreboard objectives setdisplay below_name health
 scoreboard objectives add loot_balancing dummy
 scoreboard players set @a loot_balancing 0
 
-# Required to prevent players from sleeping
+# Required to prevent players from sleeping easily
 scoreboard objectives add times_slept minecraft.custom:minecraft.sleep_in_bed
+# Only one player needs to go to the nightmare world
+gamerule players_sleeping_percentage 1
 
 # Loading Announcement
 tellraw @a [{"text":"Loading ","color":"green"},{"text":"[Hebigami's Hellmode] ","color":"gold"}]
