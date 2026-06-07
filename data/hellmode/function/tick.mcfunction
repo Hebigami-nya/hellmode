@@ -37,6 +37,8 @@ execute if score #20ticksLoop timer matches 20 run function hellmode:ability/tun
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sneaky_enderman
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/swarm_spider
 
+# Initialised new players
+execute if score #20ticksLoop timer matches 20 as @a[tag=!init] run function hellmode:spawn/player_init
 
 # Counts the loot_balancing down
 execute if score #20ticksLoop timer matches 20 run scoreboard players remove @a[scores={loot_balancing=1..}] loot_balancing 1

@@ -6,3 +6,5 @@ $execute in minecraft:overworld run spawnpoint @s $(x) $(y) $(z)
 weather clear
 time set 0t
 scoreboard players set #daytime timer 0
+# TODO: test if this fixes the issue of jumping out of bed instantly
+# scoreboard players set @a times_slept 0
