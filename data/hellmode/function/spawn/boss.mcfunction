@@ -4,7 +4,7 @@
 
 # Creates a new Altar if none is near a randomly chosen player
 execute at @r unless entity @e[type=end_crystal,distance=..100] run summon end_crystal ~ ~100 ~ {Invulnerable:1b,ShowBottom:0b,Tags:["modified","summoned"],CustomName:{"color":"black","shadow_color":-5635926,"text":"Alter of Eternity"}}
-execute as @e[type=end_crystal,tag=summoned] run teleport end_crystal ~ ~2 ~ 
+
 
 # Creates a dummy boss if non exists
 execute unless entity @e[tag=boss] at @r run summon bat ~ ~100 ~ {Silent:1b,Invulnerable:1b,Tags:["modified","boss","dummy_boss"]}
@@ -39,6 +39,7 @@ teleport @e[tag=boss,tag=to_remove] -100000 0 0
 
 # Randomly distributes summoned monsters above ground
 spreadplayers ~ ~ 80 120 false @e[tag=summoned]
+execute as @e[type=end_crystal,tag=summoned] run teleport @s ~ ~1 ~ 
 # Cleanup after distribution
 tag @e[tag=summoned] remove summoned 
 
