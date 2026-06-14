@@ -18,11 +18,11 @@ effect give @e[scores={generic_poison=60..}] minecraft:poison 2 2
 effect give @e[scores={generic_poison=30..}] minecraft:poison 2 1
 effect give @e[scores={generic_poison=1..}] minecraft:poison 2 0
 
-effect give @e[scores={generic_regeneration=120..}] minecraft:regeneration 2 4
-effect give @e[scores={generic_regeneration=90..}] minecraft:regeneration 2 3
-effect give @e[scores={generic_regeneration=60..}] minecraft:regeneration 2 2
-effect give @e[scores={generic_regeneration=30..}] minecraft:regeneration 2 1
-effect give @e[scores={generic_regeneration=1..}] minecraft:regeneration 2 0
+effect give @e[scores={generic_regeneration=120..}] minecraft:regeneration 4 4
+effect give @e[scores={generic_regeneration=90..}] minecraft:regeneration 4 3
+effect give @e[scores={generic_regeneration=60..}] minecraft:regeneration 4 2
+effect give @e[scores={generic_regeneration=30..}] minecraft:regeneration 4 1
+effect give @e[scores={generic_regeneration=1..}] minecraft:regeneration 4 0
 
 effect give @e[scores={generic_resistance=90..}] minecraft:resistance 2 3
 effect give @e[scores={generic_resistance=60..}] minecraft:resistance 2 2

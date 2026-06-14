@@ -3,7 +3,7 @@
 # Boss Monster need PERSISTANCE REQUIRED = true - will get removed when a new one spawns
 
 # Creates a new Altar if none is near a randomly chosen player
-execute at @r unless entity @e[type=end_crystal,distance=..100] run summon end_crystal ~ ~100 ~ {Invulnerable:1b,ShowBottom:0b,Tags:["modified","summoned"],CustomName:{"color":"black","shadow_color":-5635926,"text":"Alter of Eternity"}}
+execute at @r unless entity @e[type=end_crystal,distance=..200] run summon end_crystal ~ ~100 ~ {Invulnerable:1b,ShowBottom:0b,Tags:["modified","summoned"],CustomName:{"color":"black","shadow_color":-5635926,"text":"Alter of Eternity"}}
 
 
 # Creates a dummy boss if non exists

@@ -61,6 +61,7 @@ scoreboard objectives add generic_wither dummy
 
 # Required to prevent players from sleeping easily
 scoreboard objectives add times_slept minecraft.custom:minecraft.sleep_in_bed
+scoreboard players set @a times_slept 0
 # Only one player needs to go to the nightmare world
 gamerule players_sleeping_percentage 1
 
