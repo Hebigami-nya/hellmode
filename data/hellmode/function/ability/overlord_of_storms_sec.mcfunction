@@ -8,18 +8,18 @@ execute if score #random random matches 0..199 as @e[tag=overlord_of_storms] on 
 
 effect give @a[scores={lightning=1..}] minecraft:fire_resistance 3 0
 
-scoreboard players add @a[scores={lightning=1..}] generic_strength 10
+scoreboard players add @a[scores={lightning=1..29}] generic_strength 10
 
-scoreboard players add @a[scores={lightning=30..}] generic_strength 40
-scoreboard players add @a[scores={lightning=30..}] generic_resistance 10
+scoreboard players add @a[scores={lightning=30..59}] generic_strength 40
+scoreboard players add @a[scores={lightning=30..89}] generic_resistance 10
 
-scoreboard players add @a[scores={lightning=60..}] generic_strength 70
+scoreboard players add @a[scores={lightning=60..89}] generic_strength 70
 
-scoreboard players add @a[scores={lightning=90..}] generic_strength 100
-scoreboard players add @a[scores={lightning=90..}] generic_resistance 40
+scoreboard players add @a[scores={lightning=90..119}] generic_strength 100
+scoreboard players add @a[scores={lightning=90..149}] generic_resistance 40
 
 scoreboard players add @a[scores={lightning=120..}] generic_strength 130
-scoreboard players add @a[scores={lightning=120..}] generic_regeneration 10
+scoreboard players add @a[scores={lightning=120..149}] generic_regeneration 10
 
 scoreboard players add @a[scores={lightning=150..}] generic_resistance 70
 scoreboard players add @a[scores={lightning=150..}] generic_regeneration 40
