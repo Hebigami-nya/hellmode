@@ -9,4 +9,4 @@ execute in hellmode:nightmare_world run effect give @a[gamemode=adventure] minec
 
 # Summons Vex to attack players
 # 2% chance per sec to spawn
-execute if score #random random matches 0..19 at @a in hellmode:nightmare_world run summon vex ~ ~20 ~ {id:"minecraft:vex",Tags:["modified","nightmare_vex"],CustomName:"Nightmare Vex",attributes:[{id:"minecraft:attack_damage",base:1},{id:"minecraft:scale",base:2.5}]}
+execute if score #random random matches 0..19 at @a in hellmode:nightmare_world run summon vex ~ ~8 ~ {id:"minecraft:vex",Tags:["modified","nightmare_vex"],CustomName:"Nightmare Vex",attributes:[{id:"minecraft:attack_damage",base:8},{id:"minecraft:scale",base:10}]}
