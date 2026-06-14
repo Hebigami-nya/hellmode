@@ -7,6 +7,9 @@ scoreboard players add #daytime timer 1
 # Generates a new random value to fine-tune random events
 execute if score #20ticksLoop timer matches 20 store result score #random random run random value 0..999
 
+# Initialised new players
+execute if score #20ticksLoop timer matches 20 as @a[tag=!init] run function hellmode:spawn/player_init
+
 # Make air in the Nightmare world climbable
 execute if score #20ticksLoop timer matches 20 run function hellmode:dimension/nightmare_world
 
@@ -37,8 +40,8 @@ execute if score #20ticksLoop timer matches 20 run function hellmode:ability/tun
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sneaky_enderman
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/swarm_spider
 
-# Initialised new players
-execute if score #20ticksLoop timer matches 20 as @a[tag=!init] run function hellmode:spawn/player_init
+# Applys Generic Effects to players based on a score
+execute if score #20ticksLoop timer matches 1 run function hellmode:ability/generic_effect
 
 # Counts the loot_balancing down
 execute if score #20ticksLoop timer matches 20 run scoreboard players remove @a[scores={loot_balancing=1..}] loot_balancing 1

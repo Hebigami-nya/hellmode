@@ -4,8 +4,8 @@ execute as @a at @s if entity @e[tag=swarm_spider,distance=..3] if predicate hel
 
 # Swarm Spider Drop Ability
 # Give Players a buff when they are poisoned
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.head *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:strength 3 3
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.head *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:regeneration 3 0
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.chest *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:resistance 3 2
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.legs *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:jump_boost 3 3
-execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.feet *[custom_data={hasPoisonPowers:1b}] run effect give @s minecraft:speed 3 3
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.head *[custom_data={hasPoisonPowers:1b}] run scoreboard players add @s generic_strength 60
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.head *[custom_data={hasPoisonPowers:1b}] run scoreboard players add @s generic_regeneration 10
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.chest *[custom_data={hasPoisonPowers:1b}] run scoreboard players add @s generic_resistance 40
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.legs *[custom_data={hasPoisonPowers:1b}] run scoreboard players add @s generic_jump_boost 60
+execute as @e[predicate=hellmode:is_poisoned] on attacker as @s if items entity @s armor.feet *[custom_data={hasPoisonPowers:1b}] run scoreboard players add @s generic_speed 60

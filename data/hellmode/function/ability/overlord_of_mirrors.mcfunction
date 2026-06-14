@@ -19,9 +19,7 @@ scoreboard players remove @e[tag=overlord_of_mirrors,scores={overlord_of_mirrors
 execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] at @s run effect give @e[tag=modified,distance=..32] minecraft:glowing 6 0
 execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] run effect give @s minecraft:invisibility 3 0
 
-scoreboard players set @a mirror_core_resistance -1
-execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] unless items entity @s armor.head * run scoreboard players add @s mirror_core_resistance 1
-execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] unless items entity @s armor.chest * run scoreboard players add @s mirror_core_resistance 1
-execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] unless items entity @s armor.legs * run scoreboard players add @s mirror_core_resistance 1
-execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] unless items entity @s armor.feet * run scoreboard players add @s mirror_core_resistance 1
-execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] run function hellmode:ability/apply_effects
+execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] unless items entity @s armor.head * run scoreboard players add @s generic_resistance 29
+execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] unless items entity @s armor.chest * run scoreboard players add @s generic_resistance 29
+execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] unless items entity @s armor.legs * run scoreboard players add @s generic_resistance 29
+execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesMarkerBuffs:1b}] unless items entity @s armor.feet * run scoreboard players add @s generic_resistance 29

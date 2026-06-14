@@ -18,7 +18,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "hellmode:pack_leader": 1,
+                  "hellmode:armor_of_the_pack": 1,
                   "mending": 1,
                   "unbreaking": 3
                 },
@@ -51,7 +51,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "hellmode:pack_leader": 1,
+                  "hellmode:armor_of_the_pack": 1,
                   "mending": 1,
                   "unbreaking": 3
                 },
@@ -84,7 +84,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "hellmode:pack_leader": 1,
+                  "hellmode:armor_of_the_pack": 1,
                   "mending": 1,
                   "unbreaking": 3
                 },
@@ -117,7 +117,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "hellmode:pack_leader": 1,
+                  "hellmode:armor_of_the_pack": 1,
                   "mending": 1,
                   "unbreaking": 3
                 },
@@ -927,6 +927,44 @@
         },
         {
           "type": "item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:assassinate": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:pack_leader": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
           "weight": 10,
           "name": "minecraft:enchanted_book",
           "functions": [
@@ -1067,50 +1105,6 @@
                 {
                   "shadow_color": -22016,
                   "text": "Horn of Lesser Defense"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "minecraft:diamond_sword",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "hellmode:attack_damage_offhand",
-                    "type": "attack_damage",
-                    "amount": 6,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "id": "hellmode:attack_damage_per_offhand",
-                    "type": "attack_damage",
-                    "amount": 0.2,
-                    "operation": "add_multiplied_total",
-                    "slot": "mainhand"
-                  }
-                ],
-                "minecraft:enchantments": {
-                  "hellmode:assassinate": 1,
-                  "mending": 1
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Assassine's Blade"
                 }
               ]
             }

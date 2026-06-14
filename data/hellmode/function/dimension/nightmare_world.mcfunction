@@ -5,7 +5,7 @@ execute at @a in hellmode:nightmare_world run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 mi
 execute at @a in hellmode:nightmare_world run fill ~-10 ~-10 ~-10 ~10 ~10 ~10 minecraft:light replace minecraft:void_air
 
 # Gives the players in the Nightmare World darkness
-execute in hellmode:nightmare_world run effect give @a[gamemode=adventure] minecraft:darkness 3
+execute in hellmode:nightmare_world run effect give @a[gamemode=adventure] minecraft:blindness 3 0
 
 # Summons Vex to attack players
 # 2% chance per sec to spawn

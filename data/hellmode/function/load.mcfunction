@@ -38,13 +38,6 @@ scoreboard objectives add wolf_count dummy
 # Overlord of Mirrors tracking
 scoreboard objectives add overlord_of_mirrors_count dummy
 scoreboard objectives add overlord_of_mirrors_summon_cooldown dummy
-scoreboard objectives add mirror_core_resistance dummy
-
-# Invisible Stalker
-scoreboard objectives add invisible_stalker_speed dummy
-
-# Assassinate enchantment
-scoreboard objectives add assassinate_strength dummy
 
 # Health Tracking
 scoreboard objectives add health dummy Health 
@@ -53,6 +46,18 @@ scoreboard objectives setdisplay below_name health
 # Tracks if player kills a lot of mobs in a short time to avoid hyper efficient farming
 scoreboard objectives add loot_balancing dummy
 scoreboard players set @a loot_balancing 0
+
+# Tracks generic effects
+scoreboard objectives add generic_haste dummy
+scoreboard objectives add generic_jump_boost dummy
+scoreboard objectives add generic_poison dummy
+scoreboard objectives add generic_regeneration dummy
+scoreboard objectives add generic_resistance dummy
+scoreboard objectives add generic_slowness dummy
+scoreboard objectives add generic_speed dummy
+scoreboard objectives add generic_strength dummy
+scoreboard objectives add generic_weakness dummy
+scoreboard objectives add generic_wither dummy
 
 # Required to prevent players from sleeping easily
 scoreboard objectives add times_slept minecraft.custom:minecraft.sleep_in_bed
