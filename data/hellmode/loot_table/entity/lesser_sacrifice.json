@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
+          "weight": 3,
           "name": "minecraft:chainmail_boots",
           "functions": [
             {
@@ -40,7 +40,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 3,
           "name": "minecraft:chainmail_leggings",
           "functions": [
             {
@@ -73,7 +73,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 3,
           "name": "minecraft:chainmail_chestplate",
           "functions": [
             {
@@ -106,7 +106,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 3,
           "name": "minecraft:chainmail_helmet",
           "functions": [
             {
@@ -729,7 +729,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 1,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -776,7 +776,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 1,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -823,7 +823,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 1,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -870,7 +870,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 10,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -908,7 +908,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 10,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -919,45 +919,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
-                  "unbreaking": 3
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:stored_enchantments": {
-                  "hellmode:assassinate": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:stored_enchantments": {
-                  "hellmode:pack_leader": 1
+                  "sharpness": 5
                 }
               }
             }
@@ -976,6 +938,139 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
+                  "efficiency": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "infinity": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "unbreaking": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:assassinate": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "swift_sneak": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:pack_leader": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:livestock_slayer": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
                   "mending": 1
                 }
               }
@@ -984,7 +1079,7 @@
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 5,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -1105,6 +1200,204 @@
                 {
                   "shadow_color": -22016,
                   "text": "Horn of Lesser Defense"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "block_interaction_range",
+                    "type": "block_interaction_range",
+                    "amount": 1,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Reaching Diamond Shovel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mining_efficiency",
+                    "type": "mining_efficiency",
+                    "amount": 0.6,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hastly Diamond Shovel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "22f6778f-0622-4fa2-96da-a6e4a421c9dc",
+                    "type": "block_interaction_range",
+                    "amount": 1,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Reaching Diamond Axe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "33b36bb5-97e9-420a-93df-f4a8d0525285",
+                    "type": "mining_efficiency",
+                    "amount": 0.6,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hasty Diamond Axe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "22f6778f-0622-4fa2-96da-a6e4a421c9dc",
+                    "type": "block_interaction_range",
+                    "amount": 1,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Reaching Diamond Pickaxe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "33b36bb5-97e9-420a-93df-f4a8d0525285",
+                    "type": "mining_efficiency",
+                    "amount": 0.6,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hasty Diamond Pickaxe"
                 }
               ]
             }
