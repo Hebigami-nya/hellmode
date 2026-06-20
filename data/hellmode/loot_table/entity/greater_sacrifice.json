@@ -73,8 +73,15 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "hellmode:attack_damage",
+                    "type": "attack_damage",
+                    "amount": 10,
+                    "operation": "add_value"
+                  }
+                ],
                 "minecraft:enchantments": {
-                  "sharpness": 6,
                   "looting": 10,
                   "hellmode:slayers_wisdom": 5
                 }
