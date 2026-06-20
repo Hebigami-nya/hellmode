@@ -39,7 +39,6 @@ teleport @e[tag=boss,tag=to_remove] -100000 0 0
 
 # Randomly distributes summoned monsters above ground
 spreadplayers ~ ~ 80 120 false @e[tag=summoned]
-execute as @e[type=end_crystal,tag=summoned] run teleport @s ~ ~1 ~ 
 # Cleanup after distribution
 tag @e[tag=summoned] remove summoned 
 
