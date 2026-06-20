@@ -69,10 +69,14 @@ execute if score #random random matches 300..999 run data merge entity @e[type=h
 
 # Charged Creeper
 # An invisible charged creeper
-execute if score #random random matches 0..799 run data merge entity @e[type=creeper,tag=!modified,limit=1] {id:"minecraft:creeper",powered:1b,Tags:["modified","charged_creeper"],CustomName:"Charged Creeper",active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:follow_range",base:128},{id:"minecraft:step_height",base:3}]}
+execute if score #random random matches 0..699 run data merge entity @e[type=creeper,tag=!modified,limit=1] {id:"minecraft:creeper",powered:1b,Tags:["modified","charged_creeper"],CustomName:"Charged Creeper",active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:follow_range",base:128},{id:"minecraft:step_height",base:3}]}
 # Tiny Sweeper
 # A small and fast creeper with reduced explosiveness
-execute if score #random random matches 800..999 run data merge entity @e[type=creeper,tag=!modified,limit=1] {id:"minecraft:creeper",Health:6f,ExplosionRadius:2b,Tags:["modified","tiny_sweeper"],CustomName:{"shadow_color":-5636096,"text":"Tiny Sweeper"},equipment:{head:{id:"minecraft:creeper_head",count:1,components:{"minecraft:attribute_modifiers":[{id:"movement_speed",type:"movement_speed",amount:0.6,operation:"add_multiplied_base",slot:"head"}]}}},drop_chances:{head:0.000},attributes:[{id:"minecraft:follow_range",base:128},{id:"minecraft:scale",base:0.2}]}
+execute if score #random random matches 700..899 run data merge entity @e[type=creeper,tag=!modified,limit=1] {id:"minecraft:creeper",Health:6f,ExplosionRadius:2b,Tags:["modified","tiny_sweeper"],CustomName:{"shadow_color":-5636096,"text":"Tiny Sweeper"},equipment:{head:{id:"minecraft:creeper_head",count:1,components:{"minecraft:attribute_modifiers":[{id:"movement_speed",type:"movement_speed",amount:0.6,operation:"add_multiplied_base",slot:"head"}]}}},drop_chances:{head:0.000},attributes:[{id:"minecraft:follow_range",base:128},{id:"minecraft:scale",base:0.2}]}
+# Growing Creeper
+# A that grows when close to a player
+execute if score #random random matches 900..999 run data merge entity @e[type=creeper,tag=!modified,limit=1] {id:"minecraft:creeper",ExplosionRadius:2b,Tags:["modified","growing_creeper"],CustomName:{"shadow_color":-5636096,"text":"Growing Creeper"},attributes:[{id:"minecraft:scale",base:0.7},{id:"minecraft:step_height",base:10}]}
+
 
 # Empowered Ghast
 # More explosion power

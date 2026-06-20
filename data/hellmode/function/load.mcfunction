@@ -50,6 +50,9 @@ scoreboard players set @a loot_balancing_short 0
 scoreboard objectives add loot_balancing_long dummy
 scoreboard players set @a loot_balancing_long 0
 
+# Tracks Growing Creepers
+scoreboard objectives add growing_creeper_size dummy
+
 # Tracks generic effects
 scoreboard objectives add generic_haste dummy
 scoreboard objectives add generic_jump_boost dummy

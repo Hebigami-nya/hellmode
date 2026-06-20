@@ -30,6 +30,7 @@ execute if score #20ticksLoop timer matches 20 run function hellmode:loot/greate
 function hellmode:ability/skeleton_farmer
 function hellmode:ability/overlord_of_storms_tick
 function hellmode:spawn/health_tracking
+execute at @a as @e[tag=growing_creeper,distance=..5] run function hellmode:ability/growing_creeper
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_the_drowned
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_mirrors
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_storms_sec
