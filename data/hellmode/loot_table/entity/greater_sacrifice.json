@@ -428,7 +428,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:goat_horn",
+          "name": "minecraft:shield",
           "functions": [
             {
               "function": "set_count",
@@ -453,7 +453,7 @@
               "name": [
                 {
                   "shadow_color": -22016,
-                  "text": "Horn of Greater Strength"
+                  "text": "Shield of Greater Strength"
                 }
               ]
             }
@@ -462,7 +462,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:goat_horn",
+          "name": "minecraft:shield",
           "functions": [
             {
               "function": "set_count",
@@ -487,7 +487,7 @@
               "name": [
                 {
                   "shadow_color": -22016,
-                  "text": "Horn of Greater Speed"
+                  "text": "Shield of Greater Speed"
                 }
               ]
             }
@@ -496,7 +496,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:goat_horn",
+          "name": "minecraft:shield",
           "functions": [
             {
               "function": "set_count",
@@ -528,7 +528,7 @@
               "name": [
                 {
                   "shadow_color": -22016,
-                  "text": "Horn of Greater Defense"
+                  "text": "Shield of Greater Defense"
                 }
               ]
             }
