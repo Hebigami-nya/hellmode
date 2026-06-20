@@ -44,6 +44,12 @@ execute if score #20ticksLoop timer matches 20 run function hellmode:ability/swa
 # Applys Generic Effects to players based on a score
 execute if score #20ticksLoop timer matches 1 run function hellmode:ability/generic_effect
 
+# Remove invisibility from wolfs
+execute if score #20ticksLoop timer matches 20 run effect clear @e[type=wolf] minecraft:invisibility
+
+# Dire Wolf "despawning" during the day
+execute if score #daytime timer matches 0..12000 if score #20ticksLoop timer matches 20 if score #random random matches 0..199 run teleport @e[tag=dire_wolf,limit=1] 0 -100 0
+
 # Counts the loot_balancing down
 execute if score #20ticksLoop timer matches 20 run scoreboard players remove @a[scores={loot_balancing_short=1..}] loot_balancing_short 1
 execute if score #20ticksLoop timer matches 20 run scoreboard players remove @a[scores={loot_balancing_long=1..}] loot_balancing_long 1

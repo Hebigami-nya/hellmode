@@ -8,10 +8,6 @@ specific rewards only aquirable there?
 
 Attack Damage, Current drop penality, Armor, Armor Toughness, Max HP, Attack Speed
 
-## Dire Wolf
-
-introduce despawning
-
 ## Sky Core
 
 build?
