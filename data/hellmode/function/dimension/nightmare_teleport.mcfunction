@@ -17,21 +17,10 @@ execute in hellmode:nightmare_world run spreadplayers ~ ~ 1000 2000 under 128 fa
 scoreboard players set @s[scores={times_slept=1}] times_slept 2
 
 # Sets the Players gamemode to adventure in the Nightmare World
-execute in hellmode:nightmare_world run gamemode adventure @s[scores={times_slept=2..},gamemode=survival] 
-
-# Automaticly returns the player to the overworld if it is day
-execute if score #daytime timer matches ..11999 in hellmode:nightmare_world run gamemode survival @s[gamemode=adventure] 
-execute if score #daytime timer matches ..11999 run function hellmode:dimension/return_to_overworld with storage hellmode:player pos
+gamemode adventure @s[scores={times_slept=2},gamemode=survival] 
 
 # Returns the player to the overworld
-execute as @s[scores={times_slept=3..}] run function hellmode:dimension/return_to_overworld with storage hellmode:player pos
+execute as @s[scores={times_slept=3..},gamemode=adventure] run function hellmode:dimension/return_to_overworld with storage hellmode:player pos
 
-# Sets time to day if it is night and the player succeeded
-execute if score #daytime timer matches 12000.. as @s[scores={times_slept=3..}] run time set 0t
-execute if score #daytime timer matches 12000.. as @s[scores={times_slept=3..}] run scoreboard players set #daytime timer 0
-
-# Sets the Players gamemode to survival in the Overworld
-execute in minecraft:overworld run gamemode survival @s[scores={times_slept=3..},gamemode=adventure] 
-
-# Reset Sleep Counter
-scoreboard players set @s[scores={times_slept=3..}] times_slept 0
+# Automaticly returns the player to the overworld if it is day
+execute as @s[scores={times_slept=2},gamemode=adventure] if score #daytime timer matches 0..11999 run function hellmode:dimension/return_to_overworld with storage hellmode:player pos

@@ -3,4 +3,7 @@
 ## Nightmare World
 
 specific rewards only aquirable there?
-it's possible to create a time lock by jumping into a bed and instantly leaving it again
+
+## Book of Stats
+
+Attack Damage, Current drop penality, Armor, Armor Toughness, Max HP, Attack Speed
