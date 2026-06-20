@@ -39,6 +39,9 @@ scoreboard objectives add wolf_count dummy
 scoreboard objectives add overlord_of_mirrors_count dummy
 scoreboard objectives add overlord_of_mirrors_summon_cooldown dummy
 
+# The Black King Drop Sprint tracking
+scoreboard objectives add sprint_one_cm minecraft.custom:minecraft.sprint_one_cm
+
 # Health Tracking
 scoreboard objectives add health dummy Health 
 scoreboard objectives setdisplay below_name health

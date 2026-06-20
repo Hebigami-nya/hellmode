@@ -34,6 +34,7 @@ execute at @a as @e[tag=growing_creeper,distance=..5] run function hellmode:abil
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_the_drowned
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_mirrors
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/overlord_of_storms_sec
+execute if score #20ticksLoop timer matches 20 run function hellmode:ability/the_black_king
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sorcerours_overlord
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/invisible_stalker
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/death_observer
