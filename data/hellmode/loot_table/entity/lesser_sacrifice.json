@@ -1098,6 +1098,25 @@
         },
         {
           "type": "item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:hypershot": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
           "weight": 1,
           "name": "minecraft:shield",
           "functions": [
