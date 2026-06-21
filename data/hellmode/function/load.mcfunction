@@ -57,6 +57,7 @@ scoreboard players set @a loot_balancing_long 0
 scoreboard objectives add growing_creeper_size dummy
 
 # Tracks generic effects
+scoreboard objectives add generic_absorbtion dummy
 scoreboard objectives add generic_haste dummy
 scoreboard objectives add generic_jump_boost dummy
 scoreboard objectives add generic_poison dummy

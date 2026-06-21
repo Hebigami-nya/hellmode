@@ -1,4 +1,9 @@
 # Adds generic effects based on score per player
+effect give @e[scores={generic_absorbtion=120..}] minecraft:absorption 2 4
+effect give @e[scores={generic_absorbtion=90..}] minecraft:absorption 2 3
+effect give @e[scores={generic_absorbtion=60..}] minecraft:absorption 2 2
+effect give @e[scores={generic_absorbtion=30..}] minecraft:absorption 2 1
+effect give @e[scores={generic_absorbtion=1..}] minecraft:absorption 2 0
 
 effect give @e[scores={generic_haste=120..}] minecraft:haste 2 4
 effect give @e[scores={generic_haste=90..}] minecraft:haste 2 3
@@ -60,6 +65,7 @@ effect give @e[scores={generic_wither=30..}] minecraft:wither 2 1
 effect give @e[scores={generic_wither=1..}] minecraft:wither 2 0
 
 # sets all players generic effect scores to 0 after run
+scoreboard players set @e[scores={generic_absorbtion=1..}] generic_absorbtion 0
 scoreboard players set @e[scores={generic_haste=1..}] generic_haste 0
 scoreboard players set @e[scores={generic_jump_boost=1..}] generic_jump_boost 0
 scoreboard players set @e[scores={generic_poison=1..}] generic_poison 0

@@ -6,6 +6,7 @@ scoreboard players set @s loot_balancing_long 0
 scoreboard players set @s last_pos_x 0
 scoreboard players set @s last_pos_y 0
 scoreboard players set @s last_pos_z 0
+scoreboard players set @s generic_absorbtion 0
 scoreboard players set @s generic_haste 0
 scoreboard players set @s generic_jump_boost 0
 scoreboard players set @s generic_poison 0

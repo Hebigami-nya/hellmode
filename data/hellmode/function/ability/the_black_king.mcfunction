@@ -7,9 +7,6 @@ execute at @e[tag=black_king_goat] if score #random random matches 0..199 if ent
 execute as @a unless predicate hellmode:is_sprinting run scoreboard players set @s sprint_one_cm 0
 
 # Gives Buffs based on how far the player has sprinted
-# Saturation 
-execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesSprintBuffs:1b}] if score @s sprint_one_cm matches 2000.. run effect give @s minecraft:saturation 6 0
-
 # Speed
 execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesSprintBuffs:1b}] if score @s sprint_one_cm matches 1000.. run scoreboard players add @s generic_speed 29
 execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesSprintBuffs:1b}] if score @s sprint_one_cm matches 2000.. run scoreboard players add @s generic_speed 29
@@ -33,3 +30,17 @@ execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={give
 execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesSprintBuffs:1b}] if score @s sprint_one_cm matches 2000.. run scoreboard players add @s generic_resistance 20
 execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesSprintBuffs:1b}] if score @s sprint_one_cm matches 3000.. run scoreboard players add @s generic_resistance 20
 execute as @a if items entity @s hotbar.* minecraft:heavy_core[custom_data={givesSprintBuffs:1b}] if score @s sprint_one_cm matches 4000.. run scoreboard players add @s generic_resistance 20
+
+# Animated Spear Drop
+# Saturation 
+execute as @a if items entity @s hotbar.* minecraft:recovery_compass[custom_data={givesSprintSupportBuffs:1b}] if score @s sprint_one_cm matches 1000.. run effect give @s minecraft:saturation 6 0
+
+# Gives Regenation
+execute as @a if items entity @s hotbar.* minecraft:recovery_compass[custom_data={givesSprintSupportBuffs:1b}] if score @s sprint_one_cm matches 1000.. run scoreboard players add @s generic_regeneration 20
+execute as @a if items entity @s hotbar.* minecraft:recovery_compass[custom_data={givesSprintSupportBuffs:1b}] if score @s sprint_one_cm matches 3000.. run scoreboard players add @s generic_regeneration 20
+
+# Gives Absorbtion
+execute as @a if items entity @s hotbar.* minecraft:recovery_compass[custom_data={givesSprintSupportBuffs:1b}] if score @s sprint_one_cm matches 1000.. run scoreboard players add @s generic_absorbtion 29
+execute as @a if items entity @s hotbar.* minecraft:recovery_compass[custom_data={givesSprintSupportBuffs:1b}] if score @s sprint_one_cm matches 2000.. run scoreboard players add @s generic_absorbtion 29
+execute as @a if items entity @s hotbar.* minecraft:recovery_compass[custom_data={givesSprintSupportBuffs:1b}] if score @s sprint_one_cm matches 3000.. run scoreboard players add @s generic_absorbtion 29
+execute as @a if items entity @s hotbar.* minecraft:recovery_compass[custom_data={givesSprintSupportBuffs:1b}] if score @s sprint_one_cm matches 4000.. run scoreboard players add @s generic_absorbtion 29
