@@ -17,5 +17,6 @@ scoreboard players set @s generic_speed 0
 scoreboard players set @s generic_strength 0
 scoreboard players set @s generic_weakness 0
 scoreboard players set @s generic_wither 0
+scoreboard players set @s used_lectern 0
 
 tag @s add init

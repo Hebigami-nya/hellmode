@@ -4,9 +4,9 @@
 
 specific rewards only aquirable there?
 
-## Book of Stats
+## Death Punishment
 
-Attack Damage, Current drop penality, Armor, Armor Toughness, Max HP, Attack Speed
+Death world?
 
 ## Sky Core
 

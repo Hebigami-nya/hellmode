@@ -16,7 +16,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "hellmode:heavy_weapon": 5,
+                  "hellmode:heavy_weapon": 10,
                   "hellmode:penetrating": 5
                 }
               }

@@ -254,46 +254,6 @@
                   {
                     "id": "hellmode:attack_damage_per_feet",
                     "type": "attack_damage",
-                    "amount": -0.1,
-                    "operation": "add_multiplied_total",
-                    "slot": "feet"
-                  },
-                  {
-                    "id": "hellmode:armor_feet",
-                    "type": "armor",
-                    "amount": 6,
-                    "operation": "add_value",
-                    "slot": "feet"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Scared Diamond Boots"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:diamond_boots",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "hellmode:attack_damage_per_feet",
-                    "type": "attack_damage",
                     "amount": 0.1,
                     "operation": "add_multiplied_total",
                     "slot": "feet"
@@ -367,46 +327,6 @@
               "name": [
                 {
                   "text": "Agile Diamond Leggings"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:diamond_leggings",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "hellmode:attack_damage_per_legs",
-                    "type": "attack_damage",
-                    "amount": -0.1,
-                    "operation": "add_multiplied_total",
-                    "slot": "legs"
-                  },
-                  {
-                    "id": "hellmode:armor_legs",
-                    "type": "armor",
-                    "amount": 9,
-                    "operation": "add_value",
-                    "slot": "legs"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Scared Diamond Leggings"
                 }
               ]
             }
@@ -522,46 +442,6 @@
                   {
                     "id": "hellmode:attack_damage_per_chest",
                     "type": "attack_damage",
-                    "amount": -0.1,
-                    "operation": "add_multiplied_total",
-                    "slot": "chest"
-                  },
-                  {
-                    "id": "hellmode:armor_chest",
-                    "type": "armor",
-                    "amount": 11,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Scared Diamond Chestplate"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:diamond_chestplate",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "hellmode:attack_damage_per_chest",
-                    "type": "attack_damage",
                     "amount": 0.1,
                     "operation": "add_multiplied_total",
                     "slot": "chest"
@@ -656,46 +536,6 @@
                   {
                     "id": "hellmode:attack_damage_per_head",
                     "type": "attack_damage",
-                    "amount": -0.1,
-                    "operation": "add_multiplied_total",
-                    "slot": "head"
-                  },
-                  {
-                    "id": "hellmode:armor_head",
-                    "type": "armor",
-                    "amount": 6,
-                    "operation": "add_value",
-                    "slot": "head"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Scared Diamond Helmet"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:diamond_helmet",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "hellmode:attack_damage_per_head",
-                    "type": "attack_damage",
                     "amount": 0.1,
                     "operation": "add_multiplied_total",
                     "slot": "head"
@@ -722,53 +562,6 @@
               "name": [
                 {
                   "text": "Angry Diamond Helmet"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:diamond_sword",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:attribute_modifiers": [
-                  {
-                    "id": "hellmode:attack_damage_mainhand",
-                    "type": "attack_damage",
-                    "amount": 8,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "id": "hellmode:attack_damage_per_mainhand",
-                    "type": "attack_damage",
-                    "amount": -0.2,
-                    "operation": "add_multiplied_total",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "id": "hellmode:armor_mainhand",
-                    "type": "armor",
-                    "amount": 4,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Scared Diamond Sword"
                 }
               ]
             }
@@ -1417,6 +1210,278 @@
               "name": [
                 {
                   "text": "Hasty Diamond Pickaxe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "b4051be6-56bf-4b73-90e4-49d881fb018f",
+                    "type": "movement_speed",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_base",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "33f804c9-25df-4626-9eb7-d6e6f6b90347",
+                    "type": "jump_strength",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "7bc29b16-5d76-4cf7-a5c6-6b330838d016",
+                    "type": "safe_fall_distance",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "caa18323-22b1-4486-a113-3618dfc600bd",
+                    "type": "attack_damage",
+                    "amount": -0.25,
+                    "operation": "add_multiplied_total",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "bc7e093e-0ec3-4e0d-add8-a6c19fdd91ee",
+                    "type": "armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "eefff700-f9cb-4ea6-b7e4-c619580e43b7",
+                    "type": "armor_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ranger's Diamond Boots"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "702676ed-b5bd-4f37-a368-06504d69b850",
+                    "type": "movement_speed",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_base",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "3f163152-cd4a-4dd8-a451-97bc2f3edd6d",
+                    "type": "jump_strength",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "aec34fca-4872-4e70-93d5-934a15d9b785",
+                    "type": "safe_fall_distance",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "3008f480-b492-4d42-bf7b-bf257e7e782f",
+                    "type": "attack_damage",
+                    "amount": -0.25,
+                    "operation": "add_multiplied_total",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "5ea0f316-58db-424a-95a8-250846e575b2",
+                    "type": "armor",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "280a646f-b696-4e21-8132-09dcbf22303c",
+                    "type": "armor_toughness",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ranger's Diamond Leggings"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "0e9206fc-0689-45a2-af6e-5679f3ac7c98",
+                    "type": "movement_speed",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "4206ebb6-53da-4f9a-a96b-3cb39bdd8fa3",
+                    "type": "jump_strength",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "d16e9833-5f84-4847-b9b5-3fdad0c4c932",
+                    "type": "safe_fall_distance",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "ed3fcffe-5705-45a0-8e7a-4ab691df27d0",
+                    "type": "attack_damage",
+                    "amount": -0.25,
+                    "operation": "add_multiplied_total",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "738f8a8a-3b53-4c60-8815-6c34d78cb470",
+                    "type": "armor",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "0e4efde5-9652-426e-961d-aee510d9e7f7",
+                    "type": "armor_toughness",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ranger's Diamond Chestplate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "553d7dc1-6b44-4fb7-a69f-6962ebeb093d",
+                    "type": "movement_speed",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "b9abbdb6-f2c1-4f5c-b68c-ff72dce637e4",
+                    "type": "jump_strength",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "9dc2f297-f182-40f2-8f04-98998725d36e",
+                    "type": "safe_fall_distance",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "3cfe4789-1bde-4bea-9e83-abfe445f8d2b",
+                    "type": "attack_damage",
+                    "amount": -0.25,
+                    "operation": "add_multiplied_total",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "49a1f2ef-ba5b-4dfc-a8be-2d34b31360a3",
+                    "type": "armor",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "86c2dfb8-4803-41e6-9cb0-5aed8672681d",
+                    "type": "armor_toughness",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ranger's Diamond Helmet"
                 }
               ]
             }

@@ -75,5 +75,8 @@ scoreboard players set @a times_slept 0
 # Only one player needs to go to the nightmare world
 gamerule players_sleeping_percentage 1
 
+# Displays player stats on lectern use
+scoreboard objectives add used_lectern minecraft.custom:minecraft.interact_with_lectern
+
 # Loading Announcement
 tellraw @a [{"text":"Loading ","color":"green"},{"text":"[Hebigami's Hellmode] ","color":"gold"}]
