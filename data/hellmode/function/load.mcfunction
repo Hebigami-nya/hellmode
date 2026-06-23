@@ -79,4 +79,4 @@ gamerule players_sleeping_percentage 1
 scoreboard objectives add used_lectern minecraft.custom:minecraft.interact_with_lectern
 
 # Loading Announcement
-tellraw @a [{"text":"Loading ","color":"green"},{"text":"[Hebigami's Hellmode] ","color":"gold"}]
+tellraw @a [{"text":"Loading ","color":"green"},{"text":"[Hebigami's Hellmode] ","color":"gold"},{"text":"\nVersion 0.1.1","color":"white"}]
