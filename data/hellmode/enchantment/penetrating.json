@@ -23,8 +23,8 @@
           "type": "minecraft:set",
           "value": {
             "type": "minecraft:linear",
-            "base": 0.85,
-            "per_level_above_first": -0.15
+            "base": 0.9,
+            "per_level_above_first": -0.1
           }
         }
       }
