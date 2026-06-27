@@ -2,7 +2,6 @@
 # $ allows capture of variables
 # note especially the starting $
 
-say "teleporting to overworld"
 $execute in minecraft:overworld run teleport @s $(x) $(y) $(z)
 $execute in minecraft:overworld run spawnpoint @s $(x) $(y) $(z)
 weather clear
