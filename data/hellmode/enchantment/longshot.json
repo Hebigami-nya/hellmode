@@ -1,0 +1,59 @@
+{
+  "description": "Longshot",
+  "exclusive_set": [
+    "hellmode:close_combat",
+    "minecraft:power"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "primary_items": "#minecraft:enchantable/bow",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "minecraft:distance": {
+                "absolute": {
+                  "min": 20,
+                  "max": 100
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:damage_entity",
+          "damage_type": "minecraft:magic",
+          "min_damage": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 4
+          },
+          "max_damage": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 4
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}
