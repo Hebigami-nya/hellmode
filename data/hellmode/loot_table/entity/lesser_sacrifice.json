@@ -750,25 +750,6 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
-                  "infinity": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:stored_enchantments": {
                   "unbreaking": 3
                 }
               }

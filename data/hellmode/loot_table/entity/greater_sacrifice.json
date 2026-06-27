@@ -142,8 +142,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "unbreaking": 10,
-                  "mending": 1,
+                  "hellmode:unbreakable": 1,
                   "hellmode:builders_reach": 10
                 }
               }
@@ -389,7 +388,7 @@
         },
         {
           "type": "item",
-          "weight": 10,
+          "weight": 15,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
