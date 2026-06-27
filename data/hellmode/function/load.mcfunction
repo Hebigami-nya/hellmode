@@ -46,12 +46,9 @@ scoreboard objectives add sprint_one_cm minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add health dummy Health 
 scoreboard objectives setdisplay below_name health
 
-# Tracks if player kills a lot of mobs in a short time to avoid hyper efficient farming
-scoreboard objectives add loot_balancing_short dummy
-scoreboard players set @a loot_balancing_short 0
 # Tracks if player kills a lot of mobs in a longer time to avoid efficient farming
-scoreboard objectives add loot_balancing_long dummy
-scoreboard players set @a loot_balancing_long 0
+scoreboard objectives add loot_balancing dummy
+scoreboard players set @a loot_balancing 0
 
 # Tracks Growing Creepers
 scoreboard objectives add growing_creeper_size dummy
@@ -79,4 +76,4 @@ gamerule players_sleeping_percentage 1
 scoreboard objectives add used_lectern minecraft.custom:minecraft.interact_with_lectern
 
 # Loading Announcement
-tellraw @a [{"text":"Loading ","color":"green"},{"text":"[Hebigami's Hellmode] ","color":"gold"},{"text":"\nVersion 0.1.1","color":"white"}]
+tellraw @a [{"text":"Loading ","color":"green"},{"text":"[Hebigami's Hellmode] ","color":"gold"},{"text":"\nVersion 0.1.2","color":"white"}]

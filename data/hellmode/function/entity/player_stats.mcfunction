@@ -15,6 +15,13 @@ execute as @s store result storage hellmode:stats armor float 0.01 run attribute
 execute as @s store result storage hellmode:stats armor_toughness float 0.01 run attribute @s minecraft:armor_toughness get 100
 execute as @s store result storage hellmode:stats knockback_resistance float 0.01 run attribute @s minecraft:knockback_resistance get 100
 
+# Tells the player their current drop rates
+execute as @s if score @s loot_balancing matches 0..99 run tellraw @s ["Drop Rate Soul Tears: ",{"color":"dark_green","text":"20%"},{"text":"\nDrop Rate Shard of Broken Souls: "},{"color":"dark_green","text":"2%\n\n"}]
+execute as @s if score @s loot_balancing matches 100..199 run tellraw @s ["Drop Rate Soul Tears: ",{"color":"green","text":"16%"},{"text":"\nDrop Rate Shard of Broken Souls: "},{"color":"green","text":"1.6%\n\n"}]
+execute as @s if score @s loot_balancing matches 200..299 run tellraw @s ["Drop Rate Soul Tears: ",{"color":"yellow","text":"12%"},{"text":"\nDrop Rate Shard of Broken Souls: "},{"color":"yellow","text":"1.2%\n\n"}]
+execute as @s if score @s loot_balancing matches 300..399 run tellraw @s ["Drop Rate Soul Tears: ",{"color":"yellow","text":"8%"},{"text":"\nDrop Rate Shard of Broken Souls: "},{"color":"yellow","text":"0.8%\n\n"}]
+execute as @s if score @s loot_balancing matches 400..499 run tellraw @s ["Drop Rate Soul Tears: ",{"color":"red","text":"4%"},{"text":"\nDrop Rate Shard of Broken Souls: "},{"color":"red","text":"0.4%\n\n"}]
+execute as @s if score @s loot_balancing matches 500.. run tellraw @s ["Drop Rate Soul Tears: ",{"color":"dark_red","text":"1%"},{"text":"\nDrop Rate Shard of Broken Souls: "},{"color":"dark_red","text":"0.1%\n\n"}]
 
 execute as @s run function hellmode:entity/player_stats_macro with storage hellmode:stats
 

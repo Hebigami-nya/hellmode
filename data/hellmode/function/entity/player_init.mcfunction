@@ -1,8 +1,7 @@
 # Runs as a player without the Init tag
 # prepares all scores 
 scoreboard players set @s wolf_count 0
-scoreboard players set @s loot_balancing_short 0
-scoreboard players set @s loot_balancing_long 0
+scoreboard players set @s loot_balancing 0
 scoreboard players set @s last_pos_x 0
 scoreboard players set @s last_pos_y 0
 scoreboard players set @s last_pos_z 0

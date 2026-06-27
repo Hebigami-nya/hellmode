@@ -55,8 +55,7 @@ execute if score #20ticksLoop timer matches 20 run effect clear @e[type=wolf] mi
 execute if score #daytime timer matches 0..12000 if score #20ticksLoop timer matches 20 if score #random random matches 0..199 run teleport @e[tag=dire_wolf,limit=1] 0 -100 0
 
 # Counts the loot_balancing down
-execute if score #20ticksLoop timer matches 20 run scoreboard players remove @a[scores={loot_balancing_short=1..}] loot_balancing_short 1
-execute if score #20ticksLoop timer matches 20 run scoreboard players remove @a[scores={loot_balancing_long=1..}] loot_balancing_long 1
+execute if score #20ticksLoop timer matches 20 run scoreboard players remove @a[scores={loot_balancing=1..}] loot_balancing 1
 
 # Trigger player aggression in neutral mobs
 execute if score #20ticksLoop timer matches 20 as @a at @s if entity @e[tag=permanent_player_aggression,distance=..16] run function hellmode:ability/aggression
