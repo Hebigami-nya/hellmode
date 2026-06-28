@@ -17,7 +17,7 @@
               "components": {
                 "minecraft:enchantments": {
                   "hellmode:heavy_weapon": 10,
-                  "hellmode:penetrating": 5
+                  "hellmode:penetrating": 7
                 }
               }
             },
@@ -350,7 +350,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 5,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -364,12 +364,49 @@
                   "hellmode:slayers_reach": 5
                 }
               }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Increases attack range"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 5,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:plating": 5
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Increases Armor and Armor Toughness"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -383,12 +420,21 @@
                   "hellmode:escape_velocity": 5
                 }
               }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Provides a massive speed boost on getting attacked"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 15,
+          "weight": 20,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -402,12 +448,21 @@
                   "hellmode:unbreakable": 1
                 }
               }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Makes item unbreakable"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 5,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -426,12 +481,21 @@
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 5,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
               "function": "set_count",
               "count": 1
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Increases Projectile Count and adds Piercing"
+                }
+              ],
+              "mode": "append"
             },
             {
               "function": "set_components",
@@ -554,7 +618,7 @@
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 1,
           "name": "minecraft:netherite_sword",
           "functions": [
             {

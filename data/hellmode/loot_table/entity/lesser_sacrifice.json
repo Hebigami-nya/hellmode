@@ -758,7 +758,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 1,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -777,7 +777,7 @@
         },
         {
           "type": "item",
-          "weight": 3,
+          "weight": 1,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -796,7 +796,7 @@
         },
         {
           "type": "item",
-          "weight": 10,
+          "weight": 3,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -810,6 +810,15 @@
                   "hellmode:pack_leader": 1
                 }
               }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Spawns tamed wolfs to protect you"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -829,6 +838,15 @@
                   "hellmode:livestock_slayer": 1
                 }
               }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Killing livestock spawns babies"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -853,7 +871,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 3,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -867,12 +885,21 @@
                   "hellmode:penetrating": 3
                 }
               }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Gives Armor Penentration"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 1,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -883,9 +910,74 @@
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {
-                  "hellmode:hypershot": 3
+                  "hellmode:soft_landing": 3
                 }
               }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Prevents fall damage on an Elytra"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:moonwalk": 3
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Reduces the effect of gravity on you"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 100,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "hellmode:bulwark": 4
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Increases maximum health"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },

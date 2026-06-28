@@ -1,0 +1,30 @@
+{
+  "description": "Soft Landing",
+  "exclusive_set": [],
+  "supported_items": [],
+  "primary_items": "minecraft:elytra",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "hellmode:fall_damage_multiplier_ench",
+        "amount": -1,
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

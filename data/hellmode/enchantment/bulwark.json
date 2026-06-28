@@ -1,7 +1,7 @@
 {
-  "description": "Slayer's Reach",
-  "supported_items": "#minecraft:enchantable/weapon",
-  "primary_items": "#minecraft:enchantable/weapon",
+  "description": "Bulwark",
+  "exclusive_set": [],
+  "supported_items": "#minecraft:enchantable/armor",
   "weight": 1,
   "max_level": 5,
   "min_cost": {
@@ -19,14 +19,14 @@
   "effects": {
     "minecraft:attributes": [
       {
-        "attribute": "minecraft:entity_interaction_range",
-        "id": "minecraft:entity_interaction_range",
+        "attribute": "minecraft:max_health",
+        "id": "hellmode:max_health_ench",
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.2,
-          "per_level_above_first": 0.2
+          "base": 1,
+          "per_level_above_first": 1
         },
-        "operation": "add_multiplied_base"
+        "operation": "add_value"
       }
     ]
   }

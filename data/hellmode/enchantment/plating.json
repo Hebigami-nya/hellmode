@@ -1,7 +1,7 @@
 {
   "description": "Plating",
-  "supported_items": "#minecraft:enchantable/armor",
-  "primary_items": "#minecraft:enchantable/armor",
+  "supported_items": "#minecraft:enchantable/equippable",
+  "primary_items": "#minecraft:enchantable/equippable",
   "weight": 1,
   "max_level": 5,
   "min_cost": {

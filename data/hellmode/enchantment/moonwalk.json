@@ -1,5 +1,5 @@
 {
-  "description": "Sky Step",
+  "description": "Moon Walk",
   "supported_items": "#minecraft:enchantable/armor",
   "primary_items": "#minecraft:enchantable/foot_armor",
   "weight": 1,
@@ -33,7 +33,7 @@
         "id": "minecraft:safe_fall_distance",
         "amount": {
           "type": "minecraft:linear",
-          "base": 0,
+          "base": 2,
           "per_level_above_first": 2
         },
         "operation": "add_value"
