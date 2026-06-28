@@ -12,6 +12,10 @@ execute if score #random random matches 0..332 as @e[tag=overlord_of_the_drowned
 execute if score #random random matches 333..665 as @e[tag=overlord_of_the_drowned] run say You will face the same Fate as us...
 execute if score #random random matches 666..999 as @e[tag=overlord_of_the_drowned] run say Afraid of getting a little wet?
 
+execute if score #random random matches 0..332 as @e[tag=ruler_of_giants] run say They always say size doesn't matter, I'll show them that it matters!
+execute if score #random random matches 333..665 as @e[tag=ruler_of_giants] run say Care for a "little" dance..?
+execute if score #random random matches 666..999 as @e[tag=ruler_of_giants] run say You worthless giants will bow before me soon enough...
+
 execute if score #random random matches 0..332 as @e[tag=overlord_of_storms] run say Lightning calls!
 execute if score #random random matches 333..665 as @e[tag=overlord_of_storms] run say Burning you would be sooo oldschool. How about electrocuting?
 execute if score #random random matches 666..999 as @e[tag=overlord_of_storms] run say Lightning animates they said... let's see if it works for you!

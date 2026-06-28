@@ -41,6 +41,7 @@ execute if score #20ticksLoop timer matches 20 run function hellmode:ability/dea
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/tunneler
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/sneaky_enderman
 execute if score #20ticksLoop timer matches 20 run function hellmode:ability/swarm_spider
+execute if score #20ticksLoop timer matches 10 run function hellmode:enchantment/the_world_is_mine_sec
 
 # Applys Generic Effects to players based on a score
 execute if score #20ticksLoop timer matches 1 run function hellmode:ability/generic_effect

@@ -53,6 +53,9 @@ scoreboard players set @a loot_balancing 0
 # Tracks Growing Creepers
 scoreboard objectives add growing_creeper_size dummy
 
+# Ruler of Giants Drop Ability
+scoreboard objectives add the_world_is_mine dummy
+
 # Tracks generic effects
 scoreboard objectives add generic_absorbtion dummy
 scoreboard objectives add generic_haste dummy

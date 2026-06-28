@@ -1,0 +1,28 @@
+{
+  "description": "The World is Mine",
+  "supported_items": "minecraft:heavy_core",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "hellmode:enchantment/the_world_is_mine"
+        }
+      }
+    ]
+  }
+}
